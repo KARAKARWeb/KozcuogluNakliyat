@@ -44,9 +44,9 @@ next-env.d.ts
 # /src/data/*.json
 # !/src/data/.gitkeep
 
-# uploads (will be synced separately)
-/public/uploads/*
-!/public/uploads/.gitkeep
+# uploads - commented out to allow deployment
+# /public/uploads/*
+# !/public/uploads/.gitkeep
 
 # logs
 *.log
