@@ -64,9 +64,9 @@ export default async function SiteFooter() {
 
       {/* 2. Ana Footer — 6 Kolon */}
       <div className="bg-[#122032] py-16 text-white">
-        <div className="mx-auto grid max-w-[1440px] gap-8 px-4 md:grid-cols-2 md:px-6 lg:grid-cols-6 lg:px-8">
+        <div className="mx-auto grid max-w-[1440px] gap-8 px-4 md:grid-cols-2 md:px-6 lg:grid-cols-7 lg:px-8">
           {/* 1. Firma */}
-          <div className="lg:col-span-1">
+          <div className="lg:col-span-2">
             <h3 className="text-lg font-bold" itemProp="name">{footerCfg?.company?.name || "Kozcuoğlu Nakliyat"}</h3>
             <meta itemProp="telephone" content="+90-444-7-436" />
             <meta itemProp="url" content="https://kozcuoglunakliyat.com.tr" />
