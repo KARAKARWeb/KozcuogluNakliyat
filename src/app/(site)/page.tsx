@@ -105,8 +105,21 @@ export default async function HomePage() {
 
   const allReviews = reviews;
   const totalReviewCount = allReviews.length;
+  const avgRatingNum = reviews.length > 0 ? (reviews.reduce((sum, r) => sum + r.rating, 0) / reviews.length).toFixed(1) : "4.9";
+  
   const orgSchema = organizationSchema();
-  const movingSchema = movingCompanySchema();
+  const movingSchema = {
+    ...movingCompanySchema(),
+    ...(totalReviewCount > 0 ? {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: avgRatingNum,
+        reviewCount: String(totalReviewCount),
+        bestRating: "5",
+        worstRating: "1",
+      },
+    } : {}),
+  };
   const websiteSchema = webSiteSchema();
   const breadcrumb = breadcrumbSchema([{ name: "Kozcuoğlu Nakliyat", url: "/" }]);
   const siteNav = siteNavigationSchema();
@@ -151,15 +164,6 @@ export default async function HomePage() {
           "@type": "SpeakableSpecification",
           cssSelector: ["h1", ".intro-text", "h2"],
         },
-        ...(totalReviewCount > 0 ? {
-          aggregateRating: {
-            "@type": "AggregateRating",
-            ratingValue: avgRating,
-            reviewCount: String(totalReviewCount),
-            bestRating: "5",
-            worstRating: "1",
-          },
-        } : {}),
       },
       howToSchema,
       breadcrumb,
