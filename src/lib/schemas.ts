@@ -162,12 +162,23 @@ export function breadcrumbSchema(items: { name: string; url?: string }[]) {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    itemListElement: items.map((item, i) => ({
-      "@type": "ListItem",
-      position: i + 1,
-      name: item.name,
-      ...(item.url ? { item: item.url.startsWith("http") ? item.url : `${SITE_URL}${item.url}` } : {}),
-    })),
+    itemListElement: items.map((item, i) => {
+      const listItem: any = {
+        "@type": "ListItem",
+        position: i + 1,
+        name: item.name,
+      };
+      
+      if (item.url) {
+        const fullUrl = item.url.startsWith("http") ? item.url : `${SITE_URL}${item.url}`;
+        listItem.item = {
+          "@type": "WebPage",
+          "@id": fullUrl,
+        };
+      }
+      
+      return listItem;
+    }),
   };
 }
 
