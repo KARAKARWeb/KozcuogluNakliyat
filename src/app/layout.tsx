@@ -79,7 +79,7 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     verification: {
-      google: process.env.GOOGLE_SITE_VERIFICATION || "",
+      google: "-R17dTqsu3p6j48qOXjnugz33FudiFtSFUcB9EPNqRA",
     },
   };
 }
