@@ -1,0 +1,318 @@
+"use client";
+
+import { useState, useEffect, useCallback, useRef, useMemo } from "react";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { ImageIcon, Upload, Trash2, Loader2, Check, X, Search, ChevronLeft, ChevronRight } from "lucide-react";
+
+interface MediaItem {
+  url: string;
+  name: string;
+  folder: string;
+  size: number;
+  modified: string;
+}
+
+interface MediaPickerProps {
+  value: string;
+  onChange: (url: string) => void;
+  folder?: string;
+  label?: string;
+}
+
+const thumbnailCache = new Map<string, string>();
+
+export default function MediaPicker({ value, onChange, folder = "general", label = "Görsel" }: MediaPickerProps) {
+  const [open, setOpen] = useState(false);
+  const [items, setItems] = useState<MediaItem[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [search, setSearch] = useState("");
+  const [filterFolder, setFilterFolder] = useState("all");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(20);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const observerRef = useRef<IntersectionObserver | null>(null);
+
+  const fetchMedia = useCallback(async () => {
+    setLoading(true);
+    try {
+      const res = await fetch("/api/media");
+      const json = await res.json();
+      if (json.success) setItems(json.data);
+    } catch { /* ignore */ }
+    setLoading(false);
+  }, []);
+
+  useEffect(() => {
+    if (open) fetchMedia();
+  }, [open, fetchMedia]);
+
+  async function handleUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    const formData = new FormData();
+    formData.append("file", file);
+    formData.append("folder", folder);
+    try {
+      const res = await fetch("/api/upload", { method: "POST", body: formData });
+      const json = await res.json();
+      if (json.success) {
+        onChange(json.data.url);
+        fetchMedia();
+      }
+    } catch { /* ignore */ }
+    setUploading(false);
+    e.target.value = "";
+  }
+
+  async function handleDelete(url: string) {
+    if (!confirm("Bu görseli silmek istediğinize emin misiniz?")) return;
+    await fetch("/api/media", {
+      method: "DELETE",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ url }),
+    });
+    if (value === url) onChange("");
+    fetchMedia();
+  }
+
+  function formatSize(bytes: number) {
+    if (bytes < 1024) return `${bytes} B`;
+    if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`;
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+
+  const filtered = useMemo(() => {
+    return items.filter((item) => {
+      if (filterFolder !== "all" && item.folder !== filterFolder) return false;
+      if (search && !item.name.toLowerCase().includes(search.toLowerCase())) return false;
+      return true;
+    });
+  }, [items, filterFolder, search]);
+
+  const folders = useMemo(() => [...new Set(items.map((i) => i.folder))], [items]);
+
+  const totalPages = Math.ceil(filtered.length / itemsPerPage);
+  const paginatedItems = useMemo(() => {
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    return filtered.slice(start, end);
+  }, [filtered, currentPage, itemsPerPage]);
+
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [search, filterFolder]);
+
+  useEffect(() => {
+    if (!scrollContainerRef.current) return;
+
+    observerRef.current = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const img = entry.target as HTMLImageElement;
+            const src = img.dataset.src;
+            if (src && !img.src) {
+              img.src = src;
+              img.removeAttribute('data-src');
+            }
+          }
+        });
+      },
+      { rootMargin: '50px' }
+    );
+
+    return () => {
+      if (observerRef.current) {
+        observerRef.current.disconnect();
+      }
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!scrollContainerRef.current || !observerRef.current) return;
+    
+    const images = scrollContainerRef.current.querySelectorAll('img[data-src]');
+    images.forEach((img) => {
+      observerRef.current?.observe(img);
+    });
+
+    return () => {
+      images.forEach((img) => {
+        observerRef.current?.unobserve(img);
+      });
+    };
+  }, [paginatedItems]);
+
+  return (
+    <div className="space-y-2">
+      <Label>{label}</Label>
+      <div className="flex gap-2">
+        <Input value={value} onChange={(e) => onChange(e.target.value)} placeholder="/uploads/..." className="flex-1" readOnly />
+        <Button type="button" variant="outline" onClick={() => setOpen(true)} className="gap-1.5 shrink-0">
+          <ImageIcon className="h-4 w-4" /> Seç
+        </Button>
+        {value && (
+          <Button type="button" variant="ghost" size="icon" onClick={() => onChange("")} className="shrink-0">
+            <X className="h-4 w-4" />
+          </Button>
+        )}
+      </div>
+
+      {value && (
+        <div className="mt-2 overflow-hidden rounded-lg border">
+          <img
+            src={value}
+            alt="Önizleme"
+            className="h-32 w-full object-cover"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
+          />
+        </div>
+      )}
+
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-h-[85vh] max-w-4xl overflow-hidden flex flex-col">
+          <DialogHeader>
+            <DialogTitle>Medya Kütüphanesi</DialogTitle>
+          </DialogHeader>
+
+          <div className="flex flex-wrap items-center gap-3 border-b pb-3">
+            <div className="relative flex-1 min-w-[200px]">
+              <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
+              <Input
+                value={search}
+                onChange={(e) => setSearch(e.target.value)}
+                placeholder="Görsel ara..."
+                className="pl-9"
+              />
+            </div>
+            <Select value={filterFolder} onValueChange={setFilterFolder}>
+              <SelectTrigger className="w-[140px]">
+                <SelectValue placeholder="Klasör" />
+              </SelectTrigger>
+              <SelectContent>
+                <SelectItem value="all">Tümü</SelectItem>
+                {folders.map((f) => (
+                  <SelectItem key={f} value={f}>{f}</SelectItem>
+                ))}
+              </SelectContent>
+            </Select>
+            <label className="cursor-pointer">
+              <input type="file" accept="image/*" onChange={handleUpload} className="hidden" />
+              <Button type="button" variant="default" className="gap-1.5 bg-[#e3000f] hover:bg-[#c5000d] pointer-events-none" asChild>
+                <span>
+                  {uploading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Upload className="h-4 w-4" />}
+                  Yükle
+                </span>
+              </Button>
+            </label>
+          </div>
+
+          <div ref={scrollContainerRef} className="flex-1 overflow-y-auto">
+            {loading ? (
+              <div className="flex flex-col items-center justify-center py-12 gap-3">
+                <Loader2 className="h-8 w-8 animate-spin text-[#e3000f]" />
+                <p className="text-sm text-muted-foreground">Görseller yükleniyor...</p>
+              </div>
+            ) : filtered.length === 0 ? (
+              <div className="flex flex-col items-center justify-center py-12 text-muted-foreground">
+                <ImageIcon className="h-10 w-10 mb-2" />
+                <p className="text-sm">Görsel bulunamadı</p>
+                {search && (
+                  <button
+                    onClick={() => setSearch("")}
+                    className="mt-2 text-xs text-[#e3000f] hover:underline"
+                  >
+                    Aramayı temizle
+                  </button>
+                )}
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-3 gap-3 p-1 sm:grid-cols-4 md:grid-cols-5">
+                  {paginatedItems.map((item) => (
+                    <div
+                      key={item.url}
+                      className={`group relative cursor-pointer overflow-hidden rounded-lg border-2 transition-all hover:shadow-md ${
+                        value === item.url ? "border-[#e3000f] ring-2 ring-[#e3000f]/20" : "border-transparent hover:border-gray-300"
+                      }`}
+                      onClick={() => { onChange(item.url); setOpen(false); }}
+                    >
+                      <div className="aspect-square bg-gray-100 relative">
+                        <img
+                          data-src={item.url}
+                          alt={item.name}
+                          className="h-full w-full object-cover"
+                          loading="lazy"
+                        />
+                        <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
+                          <Loader2 className="h-4 w-4 animate-spin text-gray-400" />
+                        </div>
+                      </div>
+                      {value === item.url && (
+                        <div className="absolute top-1.5 right-1.5 flex h-5 w-5 items-center justify-center rounded-full bg-[#e3000f] text-white">
+                          <Check className="h-3 w-3" />
+                        </div>
+                      )}
+                      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-2 opacity-0 transition-opacity group-hover:opacity-100">
+                        <p className="truncate text-[10px] text-white">{item.name}</p>
+                        <div className="flex items-center justify-between">
+                          <span className="text-[9px] text-white/70">{formatSize(item.size)}</span>
+                          <button
+                            type="button"
+                            onClick={(e) => { e.stopPropagation(); handleDelete(item.url); }}
+                            className="rounded p-0.5 text-white/70 hover:bg-red-500 hover:text-white"
+                          >
+                            <Trash2 className="h-3 w-3" />
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {totalPages > 1 && (
+                  <div className="flex items-center justify-between border-t pt-3 mt-3 px-1">
+                    <div className="text-xs text-muted-foreground">
+                      {filtered.length} görselden {((currentPage - 1) * itemsPerPage) + 1}-{Math.min(currentPage * itemsPerPage, filtered.length)} arası gösteriliyor
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                        disabled={currentPage === 1}
+                        className="h-8 w-8 p-0"
+                      >
+                        <ChevronLeft className="h-4 w-4" />
+                      </Button>
+                      <span className="text-xs text-muted-foreground">
+                        {currentPage} / {totalPages}
+                      </span>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                        disabled={currentPage === totalPages}
+                        className="h-8 w-8 p-0"
+                      >
+                        <ChevronRight className="h-4 w-4" />
+                      </Button>
+                    </div>
+                  </div>
+                )}
+              </>
+            )}
+          </div>
+        </DialogContent>
+      </Dialog>
+    </div>
+  );
+}

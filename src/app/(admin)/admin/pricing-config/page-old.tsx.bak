@@ -1,0 +1,250 @@
+"use client";
+
+import { useState, useEffect } from "react";
+import PageHeader from "@/components/admin/page-header";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Switch } from "@/components/ui/switch";
+import { Loader2, Plus, Trash2, GripVertical } from "lucide-react";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+
+interface HomeSize {
+  id: string;
+  label: string;
+  basePrice: number;
+  order: number;
+  isActive: boolean;
+}
+
+interface PricingConfig {
+  homeSizes: HomeSize[];
+  districts: string[];
+  extraCharges: {
+    differentDistrict: number;
+    weekendMultiplier: number;
+  };
+}
+
+export default function AdminPricingConfigPage() {
+  const [config, setConfig] = useState<PricingConfig | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
+  const [newDistrict, setNewDistrict] = useState("");
+
+  useEffect(() => {
+    fetchConfig();
+  }, []);
+
+  async function fetchConfig() {
+    setLoading(true);
+    const res = await fetch("/api/pricing-config");
+    const json = await res.json();
+    if (json.success) setConfig(json.data);
+    setLoading(false);
+  }
+
+  async function handleSave() {
+    if (!config) return;
+    setSaving(true);
+    await fetch("/api/pricing-config", {
+      method: "PUT",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(config),
+    });
+    setSaving(false);
+  }
+
+  function updateHomeSize(id: string, field: keyof HomeSize, value: any) {
+    if (!config) return;
+    setConfig({
+      ...config,
+      homeSizes: config.homeSizes.map((h) =>
+        h.id === id ? { ...h, [field]: value } : h
+      ),
+    });
+  }
+
+  function addDistrict() {
+    if (!config || !newDistrict.trim()) return;
+    setConfig({
+      ...config,
+      districts: [...config.districts, newDistrict.trim()],
+    });
+    setNewDistrict("");
+  }
+
+  function removeDistrict(district: string) {
+    if (!config) return;
+    setConfig({
+      ...config,
+      districts: config.districts.filter((d) => d !== district),
+    });
+  }
+
+  if (loading) {
+    return (
+      <div className="flex justify-center py-12">
+        <Loader2 className="h-6 w-6 animate-spin text-muted-foreground" />
+      </div>
+    );
+  }
+
+  if (!config) return null;
+
+  return (
+    <div className="space-y-6">
+      <PageHeader
+        title="Fiyat Hesaplama Ayarları"
+        description="Ana sayfa fiyat hesaplama formunun ayarlarını yönetin"
+      />
+
+      {/* Ev Büyüklükleri */}
+      <div className="rounded-xl border bg-white p-6 shadow-sm">
+        <h3 className="mb-4 text-lg font-semibold text-[#122032]">Ev Büyüklükleri ve Fiyatlar</h3>
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Sıra</TableHead>
+              <TableHead>Oda Sayısı</TableHead>
+              <TableHead>Taban Fiyat (₺)</TableHead>
+              <TableHead>Durum</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {config.homeSizes
+              .sort((a, b) => a.order - b.order)
+              .map((size) => (
+                <TableRow key={size.id}>
+                  <TableCell>
+                    <div className="flex items-center gap-2">
+                      <GripVertical className="h-4 w-4 text-muted-foreground" />
+                      <Input
+                        type="number"
+                        value={size.order}
+                        onChange={(e) => updateHomeSize(size.id, "order", parseInt(e.target.value))}
+                        className="w-16"
+                      />
+                    </div>
+                  </TableCell>
+                  <TableCell>
+                    <Input
+                      value={size.label}
+                      onChange={(e) => updateHomeSize(size.id, "label", e.target.value)}
+                      className="w-24"
+                    />
+                  </TableCell>
+                  <TableCell>
+                    <Input
+                      type="number"
+                      value={size.basePrice}
+                      onChange={(e) => updateHomeSize(size.id, "basePrice", parseInt(e.target.value))}
+                      className="w-32"
+                    />
+                  </TableCell>
+                  <TableCell>
+                    <Switch
+                      checked={size.isActive}
+                      onCheckedChange={(v) => updateHomeSize(size.id, "isActive", v)}
+                    />
+                  </TableCell>
+                </TableRow>
+              ))}
+          </TableBody>
+        </Table>
+      </div>
+
+      {/* Ekstra Ücretler */}
+      <div className="rounded-xl border bg-white p-6 shadow-sm">
+        <h3 className="mb-4 text-lg font-semibold text-[#122032]">Ekstra Ücretler</h3>
+        <div className="grid gap-4 md:grid-cols-2">
+          <div className="space-y-2">
+            <Label>Farklı İlçe Ücreti (₺)</Label>
+            <Input
+              type="number"
+              value={config.extraCharges.differentDistrict}
+              onChange={(e) =>
+                setConfig({
+                  ...config,
+                  extraCharges: {
+                    ...config.extraCharges,
+                    differentDistrict: parseInt(e.target.value),
+                  },
+                })
+              }
+            />
+            <p className="text-xs text-muted-foreground">
+              Nereden ve Nereye farklı ilçe seçildiğinde eklenecek ücret
+            </p>
+          </div>
+          <div className="space-y-2">
+            <Label>Hafta Sonu Çarpanı</Label>
+            <Input
+              type="number"
+              step="0.1"
+              value={config.extraCharges.weekendMultiplier}
+              onChange={(e) =>
+                setConfig({
+                  ...config,
+                  extraCharges: {
+                    ...config.extraCharges,
+                    weekendMultiplier: parseFloat(e.target.value),
+                  },
+                })
+              }
+            />
+            <p className="text-xs text-muted-foreground">
+              Cumartesi/Pazar seçildiğinde fiyat bu değerle çarpılır (örn: 1.1 = %10 artış)
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* İlçeler */}
+      <div className="rounded-xl border bg-white p-6 shadow-sm">
+        <h3 className="mb-4 text-lg font-semibold text-[#122032]">İlçeler</h3>
+        <div className="mb-4 flex gap-2">
+          <Input
+            value={newDistrict}
+            onChange={(e) => setNewDistrict(e.target.value)}
+            placeholder="Yeni ilçe adı"
+            onKeyPress={(e) => e.key === "Enter" && addDistrict()}
+          />
+          <Button onClick={addDistrict} className="bg-[#e3000f] hover:bg-[#c5000d]">
+            <Plus className="h-4 w-4" />
+          </Button>
+        </div>
+        <div className="grid gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+          {config.districts.map((district) => (
+            <div
+              key={district}
+              className="flex items-center justify-between rounded-lg border bg-gray-50 px-3 py-2"
+            >
+              <span className="text-sm">{district}</span>
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={() => removeDistrict(district)}
+                className="h-6 w-6"
+              >
+                <Trash2 className="h-3.5 w-3.5 text-red-500" />
+              </Button>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Kaydet Butonu */}
+      <div className="flex justify-end">
+        <Button
+          onClick={handleSave}
+          disabled={saving}
+          className="bg-[#e3000f] hover:bg-[#c5000d]"
+        >
+          {saving ? <Loader2 className="mr-2 h-4 w-4 animate-spin" /> : null}
+          Kaydet
+        </Button>
+      </div>
+    </div>
+  );
+}

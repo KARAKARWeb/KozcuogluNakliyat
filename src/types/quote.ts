@@ -1,0 +1,31 @@
+export interface Quote {
+  id: string;
+  hizmetTipi: string;
+  cikisIl: string;
+  cikisIlce: string;
+  cikisAdres: string;
+  varisIl: string;
+  varisIlce: string;
+  varisAdres: string;
+  evTipi: string;
+  cikisKat: string;
+  varisKat: string;
+  cikisAsansor: string;
+  varisAsansor: string;
+  asansorIhtiyac: string;
+  esyaListesi: string;
+  ozelNotlar: string;
+  ad: string;
+  telefon: string;
+  email: string;
+  tercihTarih: string;
+  depoYaka: string;
+  depoEsyaTipi: string;
+  depoSure: string;
+  depoAmbalaj: string;
+  depoNakliye: string;
+  status: "new" | "read" | "replied" | "archived";
+  adminNote: string;
+  createdAt: string;
+  updatedAt: string;
+}

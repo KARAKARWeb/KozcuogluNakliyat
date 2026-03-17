@@ -1,0 +1,54 @@
+[
+  {
+    "id": "gizlilik-politikasi",
+    "title": "Gizlilik Politikası",
+    "slug": "gizlilik-politikasi",
+    "content": "<h2>Kişisel Verilerin Korunması</h2>\n<p>Kozcuoğlu Nakliyat olarak kişisel verilerinizin güvenliğine önem veriyoruz. Bu politika, toplanan verilerin nasıl işlendiği ve korunduğuyla ilgili bilgi vermektedir.</p>\n<h2>Toplanan Veriler</h2>\n<p>Web sitemiz üzerinden iletişim formu, keşif talep formu ve fiyat hesaplama formu aracılığıyla ad, telefon, e-posta ve adres bilgileriniz toplanmaktadır.</p>\n<h2>Verilerin Kullanımı</h2>\n<p>Toplanan veriler yalnızca hizmet sunumu, müşteri iletişimi ve yasal yükümlülükler kapsamında kullanılmaktadır.</p>\n<h2>Veri Güvenliği</h2>\n<p>Kişisel verileriniz teknik ve idari tedbirlerle korunmaktadır. Verileriniz üçüncü taraflarla paylaşılmamaktadır.</p>\n<h2>Haklarınız</h2>\n<p>KVKK kapsamında kişisel verilerinize erişim, düzeltme ve silme haklarınız bulunmaktadır. Bu haklarınızı kullanmak için info@kozcuoglunakliyat.com.tr adresine başvurabilirsiniz.</p>",
+    "seo": {
+      "title": "Gizlilik Politikası | Kozcuoğlu Nakliyat",
+      "description": "Kozcuoğlu Nakliyat gizlilik politikası.",
+      "robots": "index, follow",
+      "canonical": "/gizlilik-politikasi"
+    },
+    "updatedAt": "2026-03-17T13:04:00.000Z"
+  },
+  {
+    "id": "cerez-politikasi",
+    "title": "Çerez Politikası",
+    "slug": "cerez-politikasi",
+    "content": "<h2>Çerezler Nedir?</h2>\n<p>Çerezler, web sitemizi ziyaret ettiğinizde tarayıcınıza kaydedilen küçük metin dosyalarıdır.</p>\n<h2>Kullanılan Çerez Türleri</h2>\n<h3>Zorunlu Çerezler</h3>\n<p>Web sitesinin düzgün çalışması için gerekli çerezlerdir. Bu çerezler devre dışı bırakılamaz.</p>\n<h3>Analitik Çerezler</h3>\n<p>Ziyaretçi davranışlarını analiz etmek için kullanılır (Google Analytics, Microsoft Clarity).</p>\n<h3>Pazarlama Çerezleri</h3>\n<p>Reklam ve pazarlama amaçlı kullanılan çerezlerdir (Google Tag Manager).</p>\n<h2>Çerez Tercihleri</h2>\n<p>Çerez tercihlerinizi web sitemizin altında bulunan çerez banner'ı üzerinden yönetebilirsiniz.</p>",
+    "seo": {
+      "title": "Çerez Politikası | Kozcuoğlu Nakliyat",
+      "description": "Kozcuoğlu Nakliyat çerez politikası.",
+      "robots": "index, follow",
+      "canonical": "/cerez-politikasi"
+    },
+    "updatedAt": "2026-03-17T13:04:00.000Z"
+  },
+  {
+    "id": "kvkk-aydinlatma-metni",
+    "title": "KVKK Aydınlatma Metni",
+    "slug": "kvkk-aydinlatma-metni",
+    "content": "<h2>Veri Sorumlusu</h2>\n<p>Kozcuoğlu Nakliyat, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") kapsamında veri sorumlusu sıfatıyla hareket etmektedir.</p>\n<h2>İşlenen Kişisel Veriler</h2>\n<p>Kimlik bilgileri (ad, soyad), iletişim bilgileri (telefon, e-posta, adres), işlem güvenliği bilgileri (IP adresi, log kayıtları).</p>\n<h2>İşleme Amacı</h2>\n<p>Hizmet sunumu, müşteri ilişkileri yönetimi, yasal yükümlülükler, pazarlama faaliyetleri.</p>\n<h2>Veri Aktarımı</h2>\n<p>Kişisel verileriniz yasal zorunluluklar dışında üçüncü taraflarla paylaşılmamaktadır.</p>\n<h2>Haklarınız</h2>\n<p>KVKK'nın 11. maddesi kapsamında; verilerinize erişim, düzeltme, silme, aktarım kısıtlama ve itiraz haklarınız bulunmaktadır.</p>\n<h2>Başvuru</h2>\n<p>Haklarınızı kullanmak için info@kozcuoglunakliyat.com.tr adresine başvurabilirsiniz.</p>",
+    "seo": {
+      "title": "KVKK Aydınlatma Metni | Kozcuoğlu Nakliyat",
+      "description": "Kozcuoğlu Nakliyat KVKK aydınlatma metni.",
+      "robots": "index, follow",
+      "canonical": "/kvkk-aydinlatma-metni"
+    },
+    "updatedAt": "2026-03-17T13:04:00.000Z"
+  },
+  {
+    "id": "kullanim-kosullari",
+    "title": "Kullanım Koşulları",
+    "slug": "kullanim-kosullari",
+    "content": "<h2>Genel</h2>\n<p>Bu web sitesini kullanarak aşağıdaki koşulları kabul etmiş sayılırsınız.</p>\n<h2>İçerik</h2>\n<p>Web sitesindeki tüm içerikler Kozcuoğlu Nakliyat'a aittir. İzinsiz kopyalanması ve dağıtılması yasaktır.</p>\n<h2>Sorumluluk</h2>\n<p>Web sitesindeki fiyat bilgileri tahmini olup, kesin fiyat için ücretsiz keşif talep edilmelidir.</p>\n<h2>Değişiklikler</h2>\n<p>Kozcuoğlu Nakliyat, bu koşulları önceden bildirimde bulunmaksızın değiştirme hakkını saklı tutar.</p>",
+    "seo": {
+      "title": "Kullanım Koşulları | Kozcuoğlu Nakliyat",
+      "description": "Kozcuoğlu Nakliyat web sitesi kullanım koşulları.",
+      "robots": "index, follow",
+      "canonical": "/kullanim-kosullari"
+    },
+    "updatedAt": "2026-03-17T13:04:00.000Z"
+  }
+]

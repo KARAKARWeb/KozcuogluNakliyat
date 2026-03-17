@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ev-tasima",
+    "name": "Ev Taşıma Fiyat Hesaplama",
+    "slug": "ev-tasima",
+    "description": "Ev taşıma fiyat hesaplama modülü",
+    "fields": [
+      { "id": "from", "label": "Nereden", "type": "select", "options": [], "priceImpact": "multiplier" },
+      { "id": "to", "label": "Nereye", "type": "select", "options": [], "priceImpact": "multiplier" },
+      { "id": "houseType", "label": "Ev Tipi", "type": "select", "options": ["1+1", "2+1", "3+1", "4+1", "5+1", "Villa"], "priceImpact": "base" },
+      { "id": "floor", "label": "Kat", "type": "number", "min": 0, "max": 30, "priceImpact": "addition" },
+      { "id": "elevator", "label": "Asansör", "type": "boolean", "priceImpact": "discount" },
+      { "id": "packing", "label": "Paketleme", "type": "boolean", "priceImpact": "addition" },
+      { "id": "insurance", "label": "Sigorta", "type": "boolean", "priceImpact": "addition" },
+      { "id": "date", "label": "Taşınma Tarihi", "type": "date", "priceImpact": "multiplier" }
+    ],
+    "basePrice": 5000,
+    "assignedPages": ["/nakliyat-fiyat-hesaplama", "/evden-eve-nakliyat", "/ev-tasima"],
+    "isActive": true,
+    "order": 1,
+    "createdAt": "2026-02-13T16:00:00.000Z",
+    "updatedAt": "2026-02-13T16:00:00.000Z"
+  },
+  {
+    "id": "ofis-tasima",
+    "name": "Ofis Taşıma Fiyat Hesaplama",
+    "slug": "ofis-tasima",
+    "description": "Ofis taşıma fiyat hesaplama modülü",
+    "fields": [
+      { "id": "from", "label": "Nereden", "type": "select", "options": [], "priceImpact": "multiplier" },
+      { "id": "to", "label": "Nereye", "type": "select", "options": [], "priceImpact": "multiplier" },
+      { "id": "officeType", "label": "Ofis Tipi", "type": "select", "options": ["Küçük Ofis (1-5 kişi)", "Orta Ofis (5-20 kişi)", "Büyük Ofis (20+ kişi)"], "priceImpact": "base" },
+      { "id": "floor", "label": "Kat", "type": "number", "min": 0, "max": 50, "priceImpact": "addition" },
+      { "id": "elevator", "label": "Asansör", "type": "boolean", "priceImpact": "discount" },
+      { "id": "weekend", "label": "Hafta Sonu Taşıma", "type": "boolean", "priceImpact": "addition" },
+      { "id": "insurance", "label": "Sigorta", "type": "boolean", "priceImpact": "addition" },
+      { "id": "date", "label": "Taşınma Tarihi", "type": "date", "priceImpact": "multiplier" }
+    ],
+    "basePrice": 8000,
+    "assignedPages": ["/nakliyat-fiyat-hesaplama", "/ofis-tasima"],
+    "isActive": true,
+    "order": 2,
+    "createdAt": "2026-02-13T16:00:00.000Z",
+    "updatedAt": "2026-02-13T16:00:00.000Z"
+  }
+]

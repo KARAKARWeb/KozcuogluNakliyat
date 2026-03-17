@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#122032"/>
+  <rect x="0" y="0" width="1200" height="8" fill="#e3000f"/>
+  <text x="600" y="260" font-family="system-ui,sans-serif" font-size="64" font-weight="700" fill="#ffffff" text-anchor="middle">Kozcuoğlu Nakliyat</text>
+  <text x="600" y="330" font-family="system-ui,sans-serif" font-size="28" fill="#9ca3af" text-anchor="middle">İstanbul Evden Eve Nakliyat | Sigortalı Taşımacılık</text>
+  <text x="600" y="420" font-family="system-ui,sans-serif" font-size="36" font-weight="600" fill="#e3000f" text-anchor="middle">☎ 444 7 436</text>
+  <text x="600" y="560" font-family="system-ui,sans-serif" font-size="18" fill="#6b7280" text-anchor="middle">kozcuoglunakliyat.com.tr</text>
+</svg>

@@ -1,0 +1,973 @@
+[
+  {
+    "id": "homepage",
+    "slug": "/",
+    "title": "Ana Sayfa",
+    "sections": {
+      "hero": {
+        "title": "Kozcuoğlu Evden Eve Nakliyat",
+        "content": "İstanbul <em>evden eve nakliyat</em> firması olarak güvenli Nakliye hizmetleri sunuyoruz.\n\nKozcuoğlu Nakliyat ile <b>güvenli</b>, <b>sözleşmeli</b>, <b>sigortalı</b> ve <b>profesyonel</b> taşıma hizmeti. 20 yılı aşkın tecrübe ile yanınızdayız.",
+        "button1Text": "Ücretsiz Ekspertiz",
+        "button1Link": "/iletisim",
+        "button2Text": "444 7 436",
+        "button2Link": "tel:4447436",
+        "button3Text": "WhatsApp",
+        "button4Text": "Fiyat Hesapla",
+        "button4Link": "/nakliyat-fiyat-hesaplama",
+        "backgroundImage": "/uploads/general/istanbul-evden-eve-nakliyat-kozcuoglu-istanbul-nakliyat-sirketi.webp"
+      },
+      "trustBadges": {
+        "title": "",
+        "content": "",
+        "items": [
+          {
+            "label": "Sözleşmeli Nakliyat",
+            "icon": "CheckCircle",
+            "description": ""
+          },
+          {
+            "label": "Sigortalı Taşıma",
+            "icon": "Shield",
+            "description": ""
+          },
+          {
+            "label": "Lisanslı Firma",
+            "icon": "BadgeCheck",
+            "description": ""
+          },
+          {
+            "label": "20+ Yıl Deneyim",
+            "icon": "Award",
+            "description": ""
+          }
+        ]
+      },
+      "intro": {
+        "title": "İstanbul Evden Eve Nakliyat Firması",
+        "content": "Kozcuoğlu Nakliyat farkıyla, kurulduğumuz günden bu yana profesyonellikle anılmaya, mutlu müşteri sayımızı arttırmaya devam ediyoruz. Taşınma süreçlerinizde eşyalarınızın konfor ve güven odaklı bir şekilde nakledilmesini sağlıyoruz. Alanında uzman, gerekli eğitimlerden geçmiş bir ekiple, eşyalarınızı adresinizden teslim alıyor, yeni adresinize ulaştırıyoruz. Bu süreci ise özenli bir planlamayla tamamlıyor, müşteri memnuniyetinden ödün vermiyoruz. Yeni nesil&nbsp;<a href=\"https://kozcuoglunakliyat.com.tr/\"><strong>evden eve nakliyat</strong></a>&nbsp;hizmetlerine sahip bir firma olarak, taşınma süreçlerini çok daha kolay hale getiriyoruz. Özenle paketlediğimiz eşyalarınızı, sorunsuz bir şekilde aracımıza yerleştiriyor, yüksek katlı binalara asansör sistemi ile ulaşıyoruz. Böylece mobilyalarınızın, beyaz ev eşyalarınızın veyahut değerli aksesuarlarınızın herhangi bir zarar görmesine engel oluyoruz.<h2 style=\"margin-bottom: 0px;\">Güvenli Nakliyat Hizmeti</h2>Evden eve nakliyat hizmetlerinde kalıcı bir başarı sahibi olmak isteyen firmaların, güvenilirlik konusunda kusursuz olması şarttır. Biz de Kozcuoğlu evden eve nakliyat şirketi olarak her daim güvenilirliği ön planda tutuyoruz. Taşıma süreçlerimizde ilgili güvenlik önlemlerini alıyor, sorunsuz ve hızlı bir nakliye hizmeti veriyoruz. Ek olarak nakliyat hizmeti sırasında kullanmayı planladığımız yöntemleri öncelikli olarak sizlerle paylaşıyor, her aşamada bilgilendirme yapıp onayınızı alıyoruz. Bu sayede yalnızca taşıma işlemlerinde değil, müşteri ilişkilerinde de güveni sağlayan bir nakliyat firması olarak tanınmaya devam ediyoruz. Sizler de gerekli zaman ve saate güvenli nakliyat hizmeti almak için bizimle iletişime geçebilirsiniz.<br>"
+      },
+      "services": {
+        "title": "Hizmetlerimiz",
+        "content": "Profesyonel nakliyat ve taşıma hizmetlerimiz",
+        "buttonText": "Tüm Hizmetlerimiz",
+        "buttonLink": "/hizmetlerimiz"
+      },
+      "servicesContent": {
+        "title": "Hizmetlerimiz Hakkında",
+        "content": ""
+      },
+      "whyUs": {
+        "title": "Neden Kozcuoğlu Nakliyat?",
+        "content": "Bizi tercih etmeniz için 6 önemli neden",
+        "items": [
+          {
+            "title": "Sigortalı Taşıma",
+            "desc": "Tüm eşyalarınız sigorta kapsamında",
+            "icon": "Shield"
+          },
+          {
+            "title": "20+ Yıl Deneyim",
+            "desc": "Sektörün tecrübeli firması",
+            "icon": "Award"
+          },
+          {
+            "title": "50+ Araç Filosu",
+            "desc": "Her boyutta araç mevcuttur",
+            "icon": "Truck"
+          },
+          {
+            "title": "7/24 Destek",
+            "desc": "Her an yanınızdayız",
+            "icon": "Clock"
+          },
+          {
+            "title": "Lisanslı Firma",
+            "desc": "Resmi belgeli nakliyat",
+            "icon": "CheckCircle"
+          },
+          {
+            "title": "Profesyonel Ekip",
+            "desc": "Eğitimli ve deneyimli personel",
+            "icon": "Package"
+          }
+        ]
+      },
+      "whyUsContent": {
+        "title": "Neden Kozcuoğlu Nakliyat?",
+        "content": "Kozcuoğlu Nakliyat, evden eve nakliyat hizmetini yalnızca bir taşıma işi olarak görmez. Taşınma öncesinde tüm süreci karşılıklı görüşmelerle netleştirir, eşya yapısını, beklentileri ve özel gereksinimleri detaylı şekilde analiz ederiz. Yapılacak her işlem, planlama aşamasından uygulamaya kadar müşterimizin açık onayıyla ilerler. Bu yaklaşım, sürecin kontrol altında ve şeffaf biçimde yönetilmesini sağlar.\n\nEvini, eşyasını ve özel yaşam alanını bir firmaya emanet etmenin ne kadar hassas bir karar olduğunu biliyoruz. Bu nedenle herkesle değil, güven temelli bir anlayışla çalışırız. Kozcuoğlu Nakliyat’ta mahremiyet, sorumluluk ve profesyonellik temel ilkedir. Evden eve nakliyat sürecini, rastlantılara değil; deneyime, disipline ve karşılıklı güvene dayandırırız."
+      },
+      "process": {
+        "title": "Taşıma Sürecimiz",
+        "content": "8 adımda profesyonel nakliyat",
+        "steps": [
+          {
+            "title": "Keşif",
+            "desc": "Ücretsiz adresinize gelinir"
+          },
+          {
+            "title": "Teklif",
+            "desc": "Detaylı fiyat teklifi"
+          },
+          {
+            "title": "Onay",
+            "desc": "Teklif onaylanır"
+          },
+          {
+            "title": "Paketleme",
+            "desc": "Profesyonel ambalajlama"
+          },
+          {
+            "title": "Yükleme",
+            "desc": "Özenli yükleme"
+          },
+          {
+            "title": "Taşıma",
+            "desc": "Güvenli nakliye"
+          },
+          {
+            "title": "Boşaltma",
+            "desc": "Dikkatli boşaltma"
+          },
+          {
+            "title": "Teslim",
+            "desc": "Eksiksiz teslim"
+          }
+        ]
+      },
+      "processContent": {
+        "title": "Taşıma Sürecimiz Hakkında",
+        "content": "<h2><strong>İstanbul Evden Eve Nakliyat Şirketi</strong></h2>\n<strong>Kurumsal evden eve nakliyat</strong> firması olarak <strong>kurumsal taşımacılık</strong> hizmetleri sunuyoruz. Alanında deneyimli olan nakliye ekibimiz tarafından güvenli taşımacılık hizmetleri sunuyoruz. Nakliye hizmeti kapsamında güvenli taşımacılık çalışmaları yapıyoruz. Genel olarak İstanbul evden eve nakliyat fiyatları noktasında en uygun olmayı ve lokal şubelerimizde taşınmanızı sağlıyoruz. Böylece her hangi bir sorun yaşamadan <strong>stressiz sorunsuz</strong> taşının.\n<h2><strong>Kurumsal Evden Eve Nakliyat</strong></h2>\nKıymetli müşterilerimiz şirketimizin Türkiye geneli tüm şehirlere <strong>şehirler arası nakliyat</strong> seferleri düzenler. <strong>Kozcuoğlu Nakliyat firması</strong> genel olarak güvenli taşımacılık hizmetleri sunar. <strong>Ücretsiz ekspertiz</strong> ile eşya kontrolü, ofis taşıma, parça eşya taşıma ve depolama hizmetleri sunmak için var gücümüzle çalışıyoruz. Dilediğiniz zaman <strong>ücretsiz ekspertiz</strong> hizmeti ile eşyalarınızı yerinde görüp, planlama oluşturabiliriz. <strong>İstanbul evden eve ofis gibi alanlarda nakliyat</strong> ücretsiz ekspertiz hizmeti ile teklif alın. Yeni yerinize taşınmak için eşyalarınız için gerekli tedbirler alınarak güvenle işlem yapabilirsiniz. Taşınma öncesi ve sonrası Kozcuoğlu Nakliyat paketleme ve diğer malzemeler için gerekli tedariki sağlar."
+      },
+      "solutions": {
+        "title": "Çözümlerimiz",
+        "content": "Özel ihtiyaçlarınız için çözümlerimiz"
+      },
+      "regions": {
+        "title": "Hizmet Bölgelerimiz",
+        "content": "İstanbul ve tüm Türkiye'de hizmetinizdeyiz",
+        "buttonText": "Tüm Bölgeler",
+        "buttonLink": "/hizmet-bolgeleri"
+      },
+      "regionsContent": {
+        "title": "Hizmet Bölgelerimiz Hakkında",
+        "content": "<h2 style=\"font-size: 44px; text-align: center;\">Kozcuoğlu Evden Eve Nakliyat</h2>\n\n<hr class=\"hr-quote\" />\n<p style=\"text-align: center;\">Kozcuoğlu Nakliyat genel olarak evden eve nakliyat hizmeti sunar. Ayrıca bütün hizmetlerimizde ve ev eşyalarının taşınmasından öncesinde karşılıklı gerekli görüşmeleri sağlıyoruz. Karşı tarafın da onay ile gerekli işlemleri yapıyoruz. Herkes ile çalışılmaz evini eşyanı veya mahrem özel alanlarını yabancılara açmak güç. Biz bunun farkındayız. <span style=\"font-family: var(--qt-content-font-family); font-size: var(--qt-content-font-size);\">Kozcuoğlu Nakliyat Hakkımızda bilgi verecek olursak; firmamız son 10 yıldır taşımacılık alanında çalışmalarını sürdürmektedir. Profesyonel taşıma hizmetleri Güvenli sunuyoruz. Genel olarak kullanılan yöntem ve araçlar taşıma hizmetinin daha hızlı bir şekilde gerçekleştirilmesini sağlamaktadır. Taşıma süresinde eşyalarınızı paketleyerek taşıyoruz. Size de sadece içiniz rahat bir şekilde keyfini sürmek kalıyor.</span></p>\n\n<h3 style=\"text-align: center;\">Kozcuoğlu Nakliyat</h3>\n<p style=\"text-align: center;\">Kozcuoğlu Nakliyat Hakkımızda bilgi verecek olursak; firmamız son 10 yıldır taşımacılık alanında çalışmalarını sürdürmektedir. Profesyonel evden eve taşıma hizmetleri Güvenli sunuyoruz. Genel olarak kullanılan yöntem ve araçlar taşıma hizmetinin daha hızlı bir şekilde gerçekleştirilmesini sağlamaktadır. Taşıma süresinde eşyalarınızı paketleyerek taşıyoruz. Size de sadece içiniz rahat bir şekilde keyfini sürmek kalıyor.</p>"
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "content": "Nakliyat hakkında merak edilenler",
+        "buttonText": "Tüm Sorular",
+        "buttonLink": "/sikca-sorulan-sorular",
+        "items": []
+      },
+      "cta": {
+        "title": "Hemen Teklif Alın",
+        "content": "Ücretsiz keşif ve detaylı fiyat teklifi için bize ulaşın. Profesyonel ekibimiz en kısa sürede sizinle iletişime geçecektir.",
+        "button1Text": "Ücretsiz Keşif Talep Et",
+        "button1Link": "/iletisim",
+        "button2Text": "444 7 436",
+        "button2Link": "tel:4447436",
+        "button3Text": "WhatsApp"
+      },
+      "seoText": {
+        "title": "",
+        "content": "Taşınmak, yalnızca eşyaların yer değiştirmesi değildir; bir düzenin, bir alışkanlığın ve bir yaşam biçiminin güvenle yeni bir noktaya aktarılmasıdır. Bu nedenle her taşıma sürecini, standart bir hizmet olarak değil, kendine özgü detayları olan bir sorumluluk olarak ele alıyoruz. İlk temas anından son ana kadar tüm süreci planlı, kontrollü ve şeffaf şekilde yönetiyoruz. Yıllara yayılan saha tecrübesi, operasyon disiplini ve doğru ekip organizasyonu sayesinde, evden eve nakliyat sürecini belirsizlikten arındırıyoruz. Her adımda riskleri öngören, eşyayı değil güveni önceleyen bir yaklaşım benimsiyoruz. Bu anlayış, yalnızca taşıma günü değil, taşınma sonrası memnuniyette de fark yaratıyor. Bugün bireysel ya da kurumsal her taşımada tercih edilmemizin temel nedeni; hız, güven ve kaliteyi aynı çizgide buluşturmamızdır. Detaylara verilen önem, kullanılan ekipmanlar ve profesyonel ekip uyumu sayesinde, taşınma süreci zahmetli bir zorunluluk olmaktan çıkar. Bizim için başarı, eşyalar yerleştirildiğinde değil; gönül rahatlığı sağlandığında tamamlanır."
+      }
+    },
+    "seo": {
+      "title": "İstanbul Evden Eve Nakliyat - Kozcuoğlu Nakliye - Ev Taşıma",
+      "description": "İstanbul evden eve nakliyat şirketi Kozcuoğlu Nakliyat ünvanıyla eşya taşımacılık hizmetlerini profesyonel ekiple asansörlü ve sigortalı nakliye sunar.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "Organization",
+      "MovingCompany",
+      "WebSite",
+      "AggregateRating",
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "hakkimizda",
+    "slug": "hakkimizda",
+    "title": "Hakkımızda",
+    "sections": {
+      "hero": {
+        "title": "Hakkımızda",
+        "content": "20 yılı aşkın tecrübemizle İstanbul'un güvenilir nakliyat firması"
+      },
+      "story": {
+        "title": "Hikayemiz",
+        "content": "<br>"
+      },
+      "values": {
+        "title": "Değerlerimiz",
+        "content": "<br>",
+        "items": []
+      },
+      "stats": {
+        "title": "Rakamlarla Biz",
+        "content": "<br>",
+        "items": []
+      },
+      "cta": {
+        "title": "Bize Ulaşın",
+        "content": "Profesyonel nakliyat hizmeti için hemen iletişime geçin.c",
+        "buttonText": "İletişim",
+        "buttonLink": "/iletisim"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Hakkımızda",
+      "description": "Kozcuoğlu Nakliyat hakkında. 20 yılı aşkın tecrübe, profesyonel ekip, sigortalı taşımacılık.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "Organization",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "iletisim",
+    "slug": "iletisim",
+    "title": "İletişim",
+    "sections": {
+      "hero": {
+        "title": "İletişim",
+        "content": "Bize ulaşın, size en kısa sürede dönüş yapalım"
+      },
+      "info": {
+        "title": "İletişim Bilgileri",
+        "content": ""
+      },
+      "formTitle": {
+        "title": "Bize Yazın",
+        "content": "Sorularınız ve talepleriniz için formu doldurun"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "İletişim",
+      "description": "Kozcuoğlu Nakliyat iletişim bilgileri. Adres, telefon, e-posta, harita. ☎ 444 7 436",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "Organization",
+      "BreadcrumbList",
+      "ContactPage"
+    ]
+  },
+  {
+    "id": "hizmetlerimiz",
+    "slug": "hizmetlerimiz",
+    "title": "Hizmetlerimiz",
+    "sections": {
+      "hero": {
+        "title": "Hizmetlerimiz",
+        "content": "Profesyonel nakliyat ve taşımacılık hizmetlerimiz"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Hizmetlerimiz",
+      "description": "Evden eve nakliyat, ofis taşıma, eşya depolama, şehirler arası nakliyat hizmetleri.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "Service",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "cozumlerimiz",
+    "slug": "cozumlerimiz",
+    "title": "Çözümlerimiz",
+    "sections": {
+      "hero": {
+        "title": "Çözümlerimiz",
+        "content": "Özel ihtiyaçlarınız için profesyonel çözümler"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Çözümlerimiz",
+      "description": "Kozcuoğlu Nakliyat özel çözümleri. Asansörlü nakliyat, sigortalı taşıma, ekspertiz hizmeti.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "Service",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "fiyatlarimiz",
+    "slug": "fiyatlarimiz",
+    "title": "Fiyatlarımız",
+    "sections": {
+      "hero": {
+        "title": "Nakliyat Fiyatları",
+        "content": "Şeffaf fiyatlandırma ile nakliyat maliyetinizi hemen hesaplayın"
+      },
+      "cta": {
+        "title": "Detaylı Fiyat İçin",
+        "content": "Ücretsiz keşif ile net fiyat teklifi alın",
+        "buttonText": "Teklif Al",
+        "buttonLink": "/teklif-al"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Nakliyat Fiyatları",
+      "description": "İstanbul nakliyat fiyatları. Online fiyat hesaplama, şeffaf fiyatlandırma.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "Service",
+      "BreadcrumbList",
+      "FAQPage"
+    ]
+  },
+  {
+    "id": "hizmet-bolgeleri",
+    "slug": "hizmet-bolgeleri",
+    "title": "Hizmet Bölgeleri",
+    "sections": {
+      "hero": {
+        "title": "Hizmet Bölgeleri",
+        "content": "İstanbul ve tüm Türkiye'de profesyonel nakliyat hizmeti"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Hizmet Bölgeleri",
+      "description": "Kozcuoğlu Nakliyat hizmet bölgeleri. İstanbul ve tüm Türkiye'de nakliyat hizmeti.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "ItemList",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "sikca-sorulan-sorular",
+    "slug": "sikca-sorulan-sorular",
+    "title": "Sıkça Sorulan Sorular",
+    "sections": {
+      "hero": {
+        "title": "Sıkça Sorulan Sorular",
+        "content": "Nakliyat hakkında merak ettikleriniz"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Sıkça Sorulan Sorular",
+      "description": "Nakliyat hakkında sıkça sorulan sorular ve cevapları.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "FAQPage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "blog",
+    "slug": "blog",
+    "title": "Blog",
+    "sections": {
+      "hero": {
+        "title": "Blog",
+        "content": "Nakliyat hakkında faydalı içerikler ve rehberler"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Blog",
+      "description": "Kozcuoğlu Nakliyat blog. Nakliyat, taşıma ve depolama hakkında faydalı içerikler.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "galeri",
+    "slug": "galeri",
+    "title": "Galeri",
+    "sections": {
+      "hero": {
+        "title": "Galeri",
+        "content": "Taşıma süreçlerimizden fotoğraflar"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Galeri",
+      "description": "Kozcuoğlu Nakliyat galeri. Taşıma süreci fotoğrafları.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "video-galeri",
+    "slug": "video-galeri",
+    "title": "Video Galeri",
+    "sections": {
+      "hero": {
+        "title": "Video Galeri",
+        "content": "Hizmetlerimizi ve taşıma süreçlerimizi videolarla keşfedin"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Video Galeri",
+      "description": "Kozcuoğlu Nakliyat video galeri.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "ekibimiz",
+    "slug": "ekibimiz",
+    "title": "Ekibimiz",
+    "sections": {
+      "hero": {
+        "title": "Ekibimiz",
+        "content": "Profesyonel ve deneyimli ekibimizle tanışın"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Ekibimiz",
+      "description": "Kozcuoğlu Nakliyat profesyonel ekibi.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "referanslar",
+    "slug": "referanslar",
+    "title": "Referanslar",
+    "sections": {
+      "hero": {
+        "title": "Referanslar",
+        "content": "Başarılı taşıma projelerimiz ve referanslarımız"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Referanslar",
+      "description": "Kozcuoğlu Nakliyat referans projeler.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "araclarimiz",
+    "slug": "araclarimiz",
+    "title": "Araçlarımız",
+    "sections": {
+      "hero": {
+        "title": "Araçlarımız",
+        "content": "50+ araçlık filomuzla her türlü taşıma işlemi"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Araçlarımız",
+      "description": "Kozcuoğlu Nakliyat araç filosu.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "kampanyalar",
+    "slug": "kampanyalar",
+    "title": "Kampanyalar",
+    "sections": {
+      "hero": {
+        "title": "Kampanyalar",
+        "content": "Güncel kampanya ve indirimlerimiz"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Kampanyalar",
+      "description": "Kozcuoğlu Nakliyat güncel kampanyalar ve indirimler.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "teklif-al",
+    "slug": "teklif-al",
+    "title": "Teklif Al",
+    "sections": {
+      "hero": {
+        "title": "Teklif Al",
+        "content": "Online teklif formu ile hızlıca fiyat teklifi alın"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Teklif Al",
+      "description": "Kozcuoğlu Nakliyat'tan online teklif alın.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "nakliyat-fiyat-hesaplama",
+    "slug": "nakliyat-fiyat-hesaplama",
+    "title": "Nakliyat Fiyat Hesaplama",
+    "sections": {
+      "hero": {
+        "title": "Nakliyat Fiyat Hesaplama",
+        "content": "Online hesaplama aracı ile net ve kesin nakliyat maliyetinizi öğrenin."
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      },
+      "article": {
+        "title": "Evden Eve Nakliyat Fiyatları 2026 - Kapsamlı Rehber",
+        "description": "Evden eve nakliyat fiyatlarını etkileyen faktörler, güncel fiyat aralıkları ve tasarruf ipuçları"
+      },
+      "infoBox": {
+        "title": "Hızlı Bilgi",
+        "content": "İstanbul'da ortalama evden eve nakliyat fiyatları 2+1 daire için 15.000 - 36.000 TL, 3+1 daire için 21.000 - 48.000 TL arasında değişmektedir. Fiyatlar eşya miktarı, kat sayısı, asansör durumu ve mesafeye göre farklılık gösterir."
+      },
+      "factors": {
+        "title": "Nakliyat Fiyatını Etkileyen 8 Temel Faktör",
+        "description": "Nakliyat maliyeti tek bir faktöre bağlı değildir. Profesyonel nakliyat firmalarının fiyatlandırmasında birçok değişken rol oynar.",
+        "items": [
+          {
+            "title": "Eşya Hacmi (m³)",
+            "description": "Taşınacak eşyaların toplam metreküp hacmi. 2+1 daire ortalama 25-35 m³, 3+1 daire 40-55 m³ hacim tutar."
+          },
+          {
+            "title": "Kat Sayısı ve Asansör Durumu",
+            "description": "Asansörsüz binalarda kat başına ek ücret uygulanır. 4. kattan sonra asansörlü nakliyat şiddetle önerilir."
+          },
+          {
+            "title": "Mesafe (Km)",
+            "description": "Şehir içi taşımalarda sabit fiyat, şehirler arası taşımalarda km başına ücret hesaplanır."
+          },
+          {
+            "title": "Paketleme Hizmeti",
+            "description": "Profesyonel paketleme malzemesi ve işçilik ücreti. Tam paketleme hizmeti ortalama 1.500-3.000 TL."
+          },
+          {
+            "title": "Özel Eşya Taşıma",
+            "description": "Piyano, antika mobilya, tablo gibi değerli eşyalar için özel paketleme ve sigorta gerekir."
+          },
+          {
+            "title": "Nakliyat Sigortası",
+            "description": "Eşya değerinin %1-2'si kadar sigorta primi. 100.000 TL değer için 1.000-2.000 TL sigorta."
+          },
+          {
+            "title": "Mevsim ve Gün",
+            "description": "Yaz ayları ve ay sonları yoğun dönemdir. Hafta içi taşıma daha ekonomiktir."
+          },
+          {
+            "title": "Montaj-Demontaj",
+            "description": "Mobilya söküm-takım işlemleri. Yatak odası takımı montajı 500-1.000 TL arası."
+          }
+        ]
+      },
+      "priceTable": {
+        "title": "2026 İstanbul Nakliyat Fiyat Tablosu",
+        "caption": "Ortalama fiyatlar, standart hizmet paketi için geçerlidir. Özel durumlar için fiyat değişebilir.",
+        "headers": [
+          "Ev Tipi",
+          "Eşya Hacmi",
+          "Asansörsüz",
+          "Asansörlü",
+          "Ek Hizmetlerle"
+        ],
+        "rows": [
+          {
+            "Ev Tipi": "1+1 Daire",
+            "Eşya Hacmi": "15-20 m³",
+            "Asansörsüz": "13.500 - 16.000 ₺",
+            "Asansörlü": "+6.500 TL",
+            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
+          },
+          {
+            "Ev Tipi": "2+1 Daire",
+            "Eşya Hacmi": "25-35 m³",
+            "Asansörsüz": "25.500 - 39.000 ₺",
+            "Asansörlü": "+6.500 TL",
+            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
+          },
+          {
+            "Ev Tipi": "3+1 Daire",
+            "Eşya Hacmi": "40-55 m³",
+            "Asansörsüz": "37.500 - 53.000 ₺",
+            "Asansörlü": "+6.500 TL",
+            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
+          },
+          {
+            "Ev Tipi": "4+1 Daire",
+            "Eşya Hacmi": "60-80 m³",
+            "Asansörsüz": "50.000 - 68.000 ₺",
+            "Asansörlü": "+6.500 TL",
+            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
+          },
+          {
+            "Ev Tipi": "Villa/Müstakil",
+            "Eşya Hacmi": "100+ m³",
+            "Asansörsüz": "85.000 - 135.000 ₺",
+            "Asansörlü": "+6.500 TL",
+            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
+          }
+        ]
+      },
+      "savingTips": {
+        "title": "Nakliyat Maliyetinden Tasarruf Etmenin 6 Yolu",
+        "items": [
+          {
+            "title": "Erken Rezervasyon",
+            "description": "2-3 hafta önceden rezervasyon yaparak %10-15 indirim sağlayabilirsiniz."
+          },
+          {
+            "title": "Hafta İçi Taşınma",
+            "description": "Pazartesi-Perşembe arası taşınma hafta sonuna göre %15-20 daha ekonomiktir."
+          },
+          {
+            "title": "Gereksiz Eşyalardan Kurtulun",
+            "description": "Taşınmadan önce kullanmadığınız eşyaları satın veya bağışlayın."
+          },
+          {
+            "title": "Kendi Paketlemenizi Yapın",
+            "description": "Kırılmayan eşyaları kendiniz paketleyerek 1.000-2.000 TL tasarruf edin."
+          },
+          {
+            "title": "Kış Aylarını Tercih Edin",
+            "description": "Aralık-Şubat arası düşük sezon, fiyatlar %20-30 daha uygun."
+          },
+          {
+            "title": "Birden Fazla Teklif Alın",
+            "description": "En az 3 firmadan teklif alarak karşılaştırma yapın."
+          }
+        ]
+      },
+      "warning": {
+        "title": "Dikkat Edilmesi Gerekenler",
+        "content": "Çok düşük fiyat veren firmalardan uzak durun. Kaliteli hizmet için makul fiyat şarttır. Sigortalı taşımacılık mutlaka tercih edilmelidir. Sözleşme yapmadan ödeme yapmayın."
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "items": [
+          {
+            "question": "Nakliyat fiyatı nasıl hesaplanır?",
+            "answer": "Nakliyat fiyatı; eşya hacmi (m³), kat sayısı, asansör durumu, mesafe, paketleme ihtiyacı ve ekstra hizmetlere göre hesaplanır. Yukarıdaki hesaplama aracını kullanarak tahmini fiyat alabilirsiniz."
+          },
+          {
+            "question": "Nakliyat sigortası zorunlu mu?",
+            "answer": "Yasal olarak zorunlu değildir ancak şiddetle önerilir. Sigortalı taşımacılıkta hasar durumunda eşyalarınız tazmin edilir. Sigorta primi eşya değerinin %1-2'si kadardır."
+          },
+          {
+            "question": "Hangi ödeme yöntemleri kabul edilir?",
+            "answer": "Nakit, kredi kartı, banka havalesi ve çek kabul edilir. Genellikle %30-50 kapora, kalan ödeme teslimat sonrası yapılır. Sözleşmede ödeme şartları net belirtilmelidir."
+          },
+          {
+            "question": "Asansörlü nakliyat ne kadar daha pahalı?",
+            "answer": "Asansörlü nakliyat (dış cephe asansörü) ortalama 1.500-3.000 TL ek maliyet getirir. Ancak 4+ katlı binalarda hem daha güvenli hem de daha hızlıdır. Yüksek katlarda asansörsüz taşıma riski yüksektir."
+          },
+          {
+            "question": "Taşınma ne kadar sürer?",
+            "answer": "Ortalama 2+1 daire için 4-6 saat, 3+1 daire için 6-8 saat sürer. Paketleme dahil ise 1-2 gün önceden başlanır. Süre eşya miktarı, kat sayısı ve mesafeye göre değişir."
+          }
+        ]
+      },
+      "cta": {
+        "title": "Kesin Fiyat Teklifi İçin Bizi Arayın",
+        "description": "Profesyonel ekibimiz size özel fiyat teklifi hazırlayacaktır",
+        "button1Text": "444 7 436",
+        "button1Link": "tel:4447436",
+        "button2Text": "Online Teklif Al",
+        "button2Link": "/nakliyat-fiyat-hesaplama"
+      }
+    },
+    "seo": {
+      "title": "Nakliyat Fiyat Hesaplama - Anında Gerçek Fiyat Al! - 2026",
+      "description": "Evden eve nakliyat fiyatlarını gerçek hesaplayın, gerçek fiyat ile anlık teklif alın, müşteri yorumlarımızı incele ve uygun fiyatla hızlıca taşının!",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "SoftwareApplication",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "esya-depolama",
+    "slug": "esya-depolama",
+    "title": "Eşya Depolama",
+    "sections": {
+      "hero": {
+        "title": "Eşya Depolama",
+        "content": "Güvenli, klimalı, sigortalı eşya depolama hizmeti"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Eşya Depolama",
+      "description": "İstanbul eşya depolama hizmeti.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "SelfStorage",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "sozlesmeler",
+    "slug": "sozlesmeler",
+    "title": "Sözleşmeler",
+    "sections": {
+      "hero": {
+        "title": "Sözleşmeler",
+        "content": "Nakliyat sözleşmeleri ve yasal belgeler"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Sözleşmeler",
+      "description": "Kozcuoğlu Nakliyat sözleşmeleri.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "tasima-takip",
+    "slug": "tasima-takip",
+    "title": "Taşıma Takip",
+    "sections": {
+      "hero": {
+        "title": "Taşıma Takip",
+        "content": "Taşımanızın durumunu takip kodu ile sorgulayın"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Taşıma Takip",
+      "description": "Taşımanızın durumunu takip kodu ile sorgulayın.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "tasinma-kontrol-listesi",
+    "slug": "tasinma-kontrol-listesi",
+    "title": "Taşınma Kontrol Listesi",
+    "sections": {
+      "hero": {
+        "title": "Taşınma Kontrol Listesi",
+        "content": "Taşınma sürecinizi kolaylaştıracak profesyonel adım adım kontrol listesi"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Taşınma Kontrol Listesi | Kozcuoğlu Nakliyat",
+      "description": "Profesyonel taşınma kontrol listesi ile taşınma sürecinizi kolaylaştırın. Adım adım rehber ve ipuçları.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "HowTo",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "insan-kaynaklari",
+    "slug": "insan-kaynaklari",
+    "title": "İnsan Kaynakları",
+    "sections": {
+      "hero": {
+        "title": "İnsan Kaynakları",
+        "content": "Kariyer fırsatları ve açık pozisyonlar"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "İnsan Kaynakları",
+      "description": "Kozcuoğlu Nakliyat kariyer fırsatları.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "kurumsal",
+    "slug": "kurumsal",
+    "title": "Kurumsal",
+    "sections": {
+      "hero": {
+        "title": "Kurumsal",
+        "content": "Kozcuoğlu Nakliyat kurumsal bilgiler"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Kurumsal",
+      "description": "Kozcuoğlu Nakliyat kurumsal bilgiler.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "site-haritasi",
+    "slug": "site-haritasi",
+    "title": "Site Haritası",
+    "sections": {
+      "hero": {
+        "title": "Site Haritası",
+        "content": "Tüm sayfalar, hizmetler ve bölgeler"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Site Haritası",
+      "description": "Kozcuoğlu Nakliyat site haritası.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
+      "BreadcrumbList"
+    ]
+  }
+]

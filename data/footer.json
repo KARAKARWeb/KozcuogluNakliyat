@@ -1,0 +1,22 @@
+{
+  "ctaBar": {
+    "title": "Nakliyat Fiyatınızı Hesaplayın",
+    "description": "Online fiyat hesaplama ile anında tahmini fiyat öğrenin",
+    "button1Text": "Fiyat Hesapla",
+    "button1Link": "/nakliyat-fiyat-hesaplama",
+    "button2Text": "444 7 436",
+    "button2Link": "tel:4447436"
+  },
+  "company": {
+    "name": "Kozcuoğlu Nakliyat",
+    "description": "20 yılı aşkın tecrübemizle İstanbul ve tüm Türkiye'de profesyonel nakliyat hizmeti sunuyoruz."
+  },
+  "copyright": "Tüm hakları saklıdır.",
+  "legalLinks": [
+    {"label": "Gizlilik Politikası", "href": "/gizlilik-politikasi"},
+    {"label": "Çerez Politikası", "href": "/cerez-politikasi"},
+    {"label": "KVKK", "href": "/kvkk-aydinlatma-metni"},
+    {"label": "Kullanım Koşulları", "href": "/kullanim-kosullari"}
+  ],
+  "regionsTitle": "Hizmet Verdiğimiz Bölgeler"
+}

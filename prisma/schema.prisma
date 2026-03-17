@@ -1,0 +1,305 @@
+// Prisma Schema
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// User Model
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  name          String
+  password      String
+  role          UserRole  @default(VIEWER)
+  isActive      Boolean   @default(true)
+  lastLogin     DateTime?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  
+  activities    Activity[]
+  notifications Notification[]
+  
+  @@index([email])
+  @@index([role])
+  @@map("users")
+}
+
+enum UserRole {
+  ADMIN
+  EDITOR
+  VIEWER
+}
+
+// Blog Model
+model Blog {
+  id          String    @id @default(cuid())
+  title       String
+  slug        String    @unique
+  excerpt     String
+  content     String    @db.Text
+  image       String?
+  category    String
+  tags        String[]
+  author      String
+  isPublished Boolean   @default(false)
+  publishedAt DateTime?
+  viewCount   Int       @default(0)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+  
+  comments    Comment[]
+  ratings     Rating[]
+  
+  @@index([slug])
+  @@index([category])
+  @@index([isPublished])
+  @@index([publishedAt])
+  @@map("blogs")
+}
+
+// Service Model
+model Service {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  excerpt     String?
+  content     String   @db.Text
+  image       String?
+  icon        String?
+  category    String
+  order       Int      @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  ratings     Rating[]
+  
+  @@index([slug])
+  @@index([category])
+  @@index([isActive])
+  @@index([order])
+  @@map("services")
+}
+
+// Solution Model
+model Solution {
+  id        String   @id @default(cuid())
+  title     String
+  slug      String   @unique
+  content   String   @db.Text
+  image     String?
+  order     Int      @default(0)
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([slug])
+  @@index([isActive])
+  @@index([order])
+  @@map("solutions")
+}
+
+// Region Model
+model Region {
+  id        String     @id @default(cuid())
+  title     String
+  slug      String     @unique
+  district  String
+  content   String     @db.Text
+  type      RegionType @default(DISTRICT)
+  isActive  Boolean    @default(true)
+  createdAt DateTime   @default(now())
+  updatedAt DateTime   @updatedAt
+  
+  @@index([slug])
+  @@index([district])
+  @@index([type])
+  @@index([isActive])
+  @@map("regions")
+}
+
+enum RegionType {
+  DISTRICT
+  INTERCITY
+}
+
+// Comment Model
+model Comment {
+  id         String    @id @default(cuid())
+  blogId     String
+  author     String
+  email      String
+  content    String    @db.Text
+  isApproved Boolean   @default(false)
+  isSpam     Boolean   @default(false)
+  likes      Int       @default(0)
+  createdAt  DateTime  @default(now())
+  updatedAt  DateTime  @updatedAt
+  
+  blog       Blog      @relation(fields: [blogId], references: [id], onDelete: Cascade)
+  
+  @@index([blogId])
+  @@index([isApproved])
+  @@index([createdAt])
+  @@map("comments")
+}
+
+// Rating Model
+model Rating {
+  id        String     @id @default(cuid())
+  itemId    String
+  itemType  RatingType
+  rating    Int        @default(0)
+  userId    String?
+  ipAddress String?
+  createdAt DateTime   @default(now())
+  
+  blog      Blog?      @relation(fields: [itemId], references: [id], onDelete: Cascade, map: "rating_blog_fk")
+  service   Service?   @relation(fields: [itemId], references: [id], onDelete: Cascade, map: "rating_service_fk")
+  
+  @@index([itemId])
+  @@index([itemType])
+  @@index([createdAt])
+  @@map("ratings")
+}
+
+enum RatingType {
+  BLOG
+  SERVICE
+  SOLUTION
+}
+
+// Newsletter Model
+model Newsletter {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  source       String   @default("website")
+  isActive     Boolean  @default(true)
+  subscribedAt DateTime @default(now())
+  
+  @@index([email])
+  @@index([isActive])
+  @@map("newsletters")
+}
+
+// Contact Message Model
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  phone     String?
+  subject   String?
+  message   String   @db.Text
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  
+  @@index([isRead])
+  @@index([createdAt])
+  @@map("contact_messages")
+}
+
+// Quote Request Model
+model QuoteRequest {
+  id          String   @id @default(cuid())
+  name        String
+  email       String
+  phone       String
+  fromAddress String
+  toAddress   String
+  serviceType String
+  movingDate  String?
+  message     String?  @db.Text
+  status      String   @default("pending")
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([status])
+  @@index([createdAt])
+  @@map("quote_requests")
+}
+
+// Activity Log Model
+model Activity {
+  id          String   @id @default(cuid())
+  userId      String?
+  action      String
+  entity      String
+  entityId    String?
+  description String?
+  ipAddress   String?
+  userAgent   String?
+  createdAt   DateTime @default(now())
+  
+  user        User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  
+  @@index([userId])
+  @@index([action])
+  @@index([entity])
+  @@index([createdAt])
+  @@map("activities")
+}
+
+// Notification Model
+model Notification {
+  id        String   @id @default(cuid())
+  userId    String?
+  type      String
+  title     String
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+  
+  user      User?    @relation(fields: [userId], references: [id], onDelete: SetNull)
+  
+  @@index([userId])
+  @@index([isRead])
+  @@index([createdAt])
+  @@map("notifications")
+}
+
+// Page Model (Dynamic Pages)
+model Page {
+  id        String   @id @default(cuid())
+  slug      String   @unique
+  title     String
+  content   String   @db.Text
+  sections  Json?
+  seoTitle  String?
+  seoDesc   String?
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@index([slug])
+  @@index([isActive])
+  @@map("pages")
+}
+
+// Settings Model
+model Setting {
+  id        String   @id @default(cuid())
+  key       String   @unique
+  value     Json
+  updatedAt DateTime @updatedAt
+  
+  @@index([key])
+  @@map("settings")
+}
+
+// Redirect Model
+model Redirect {
+  id          String   @id @default(cuid())
+  source      String   @unique
+  destination String
+  type        String   @default("permanent")
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  
+  @@index([source])
+  @@index([isActive])
+  @@map("redirects")
+}

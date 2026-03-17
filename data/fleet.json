@@ -1,0 +1,203 @@
+[
+  {
+    "id": "fleet-3",
+    "name": "Scania R500",
+    "type": "TIR",
+    "capacity": "26 Ton",
+    "description": "2023 model Scania R500 - 26 Ton yük kapasitesi",
+    "image": "/uploads/fleet/tir-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Hidrolik Lift",
+      "GPS Takip",
+      "Sigortalı"
+    ],
+    "isActive": true,
+    "order": 3,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-12",
+    "name": "Mercedes-Benz Axor 2533",
+    "type": "Kamyon",
+    "capacity": "16 Ton",
+    "description": "2021 model Mercedes-Benz Axor 2533 - 16 Ton yük kapasitesi",
+    "image": "/uploads/fleet/kamyon-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "GPS Takip",
+      "Sigortalı"
+    ],
+    "isActive": true,
+    "order": 12,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-17",
+    "name": "Isuzu FVR 34",
+    "type": "Kamyon",
+    "capacity": "15 Ton",
+    "description": "2022 model Isuzu FVR 34 - 15 Ton yük kapasitesi",
+    "image": "/uploads/fleet/kamyon-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "GPS Takip",
+      "Sigortalı"
+    ],
+    "isActive": true,
+    "order": 17,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-20",
+    "name": "Hyundai Mighty EX8",
+    "type": "Kamyon",
+    "capacity": "8 Ton",
+    "description": "2022 model Hyundai Mighty EX8 - 8 Ton yük kapasitesi",
+    "image": "/uploads/fleet/kamyon-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "GPS Takip",
+      "Sigortalı"
+    ],
+    "isActive": true,
+    "order": 20,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-23",
+    "name": "Mercedes-Benz Actros 2546",
+    "type": "Büyük Kamyon",
+    "capacity": "22 Ton",
+    "description": "2022 model Mercedes-Benz Actros 2546 - 22 Ton yük kapasitesi",
+    "image": "/uploads/fleet/buyuk-kamyon-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Hidrolik Lift",
+      "GPS Takip",
+      "Sigortalı"
+    ],
+    "isActive": true,
+    "order": 23,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-24",
+    "name": "Volvo FM 420",
+    "type": "Büyük Kamyon",
+    "capacity": "20 Ton",
+    "description": "2021 model Volvo FM 420 - 20 Ton yük kapasitesi",
+    "image": "/uploads/fleet/buyuk-kamyon-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Hidrolik Lift",
+      "GPS Takip",
+      "Sigortalı"
+    ],
+    "isActive": true,
+    "order": 24,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-31",
+    "name": "Mercedes-Benz Sprinter 516",
+    "type": "Panelvan",
+    "capacity": "3.5 Ton",
+    "description": "2023 model Mercedes-Benz Sprinter 516 - 3.5 Ton yük kapasitesi",
+    "image": "/uploads/fleet/panelvan-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "GPS Takip"
+    ],
+    "isActive": true,
+    "order": 31,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-34",
+    "name": "Fiat Ducato Maxi",
+    "type": "Panelvan",
+    "capacity": "2.5 Ton",
+    "description": "2023 model Fiat Ducato Maxi - 2.5 Ton yük kapasitesi",
+    "image": "/uploads/fleet/panelvan-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "GPS Takip"
+    ],
+    "isActive": true,
+    "order": 34,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-44",
+    "name": "Volkswagen Caravelle",
+    "type": "Minivan",
+    "capacity": "900 Kg",
+    "description": "2022 model Volkswagen Caravelle - 900 Kg yük kapasitesi",
+    "image": "/uploads/fleet/minivan-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Konforlu"
+    ],
+    "isActive": true,
+    "order": 44,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-45",
+    "name": "Ford Tourneo Custom",
+    "type": "Minivan",
+    "capacity": "1.2 Ton",
+    "description": "2021 model Ford Tourneo Custom - 1.2 Ton yük kapasitesi",
+    "image": "/uploads/fleet/minivan-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Konforlu"
+    ],
+    "isActive": true,
+    "order": 45,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-50",
+    "name": "Volkswagen Passat",
+    "type": "Otomobil",
+    "capacity": "550 Kg",
+    "description": "2022 model Volkswagen Passat - 550 Kg yük kapasitesi",
+    "image": "/uploads/fleet/otomobil-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Ekonomik"
+    ],
+    "isActive": true,
+    "order": 50,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  },
+  {
+    "id": "fleet-51",
+    "name": "Renault Megane",
+    "type": "Otomobil",
+    "capacity": "480 Kg",
+    "description": "2021 model Renault Megane - 480 Kg yük kapasitesi",
+    "image": "/uploads/fleet/otomobil-placeholder.jpg",
+    "features": [
+      "Klimalı",
+      "Ekonomik"
+    ],
+    "isActive": true,
+    "order": 51,
+    "createdAt": "2026-02-15T01:25:22.451Z",
+    "updatedAt": "2026-02-15T01:25:22.451Z"
+  }
+]

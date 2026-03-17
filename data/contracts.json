@@ -1,0 +1,19 @@
+[
+  {
+    "id": "1773752644466",
+    "title": "Test",
+    "slug": "test",
+    "content": "test",
+    "seo": {
+      "title": "test",
+      "description": "test",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "isActive": true,
+    "order": 1,
+    "createdAt": "2026-03-17T13:04:04.466Z",
+    "updatedAt": "2026-03-17T13:04:04.466Z"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1739667600000",
+    "slug": "evden-eve-nakliyat-fiyatlari",
+    "title": "Evden Eve Nakliyat Fiyatları",
+    "description": "2026 güncel evden eve nakliyat fiyatları. İstanbul şehir içi ve şehirler arası nakliyat fiyat listesi.",
+    "prices": [
+      {
+        "title": "1+1 Ev Taşıma",
+        "price": "13.500 - 16.000 ₺",
+        "description": "Ortalama 50-70m² ev taşıma"
+      },
+      {
+        "title": "2+1 Ev Taşıma",
+        "price": "25.500 - 39.000 ₺",
+        "description": "Ortalama 80-100m² ev taşıma"
+      },
+      {
+        "title": "3+1 Ev Taşıma",
+        "price": "37.500 - 53.000 ₺",
+        "description": "Ortalama 110-140m² ev taşıma"
+      },
+      {
+        "title": "4+1 Ev Taşıma",
+        "price": "50.000 - 68.000 ₺",
+        "description": "Ortalama 150-180m² ev taşıma"
+      },
+      {
+        "title": "Villa Taşıma",
+        "price": "85.000 - 135.000 ₺",
+        "description": "Müstakil villa ve geniş konutlar"
+      },
+      {
+        "title": "Şehirler Arası",
+        "price": "52.000 - 125.000 ₺",
+        "description": "Şehirler arası nakliyat"
+      },
+      {
+        "title": "Parça Eşya Taşıma",
+        "price": "21.500 - 44.000 ₺",
+        "description": "Küçük eşya ve mobilya taşıma"
+      }
+    ],
+    "isActive": true,
+    "seoTitle": "Evden Eve Nakliyat Fiyatları 2026 | Güncel Fiyat Listesi",
+    "seoDescription": "2026 güncel evden eve nakliyat fiyatları. İstanbul şehir içi ve şehirler arası nakliyat fiyat listesi. Ücretsiz keşif ve fiyat teklifi.",
+    "createdAt": "2026-02-16T00:00:00.000Z",
+    "updatedAt": "2026-02-16T01:56:02.243Z"
+  }
+]

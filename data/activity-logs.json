@@ -1,0 +1,992 @@
+[
+  {
+    "id": "1773752705678",
+    "action": "update",
+    "entity": "campaign",
+    "entityId": "kampanya-1",
+    "details": "Kampanya güncellendi: Kış Dönemi Taşınma Kampanyası",
+    "user": "admin",
+    "createdAt": "2026-03-17T13:05:05.678Z"
+  },
+  {
+    "id": "1771206962245",
+    "action": "update",
+    "entity": "pricing-page",
+    "entityId": "1739667600000",
+    "details": "Fiyat sayfası güncellendi: Evden Eve Nakliyat Fiyatları",
+    "user": "admin",
+    "createdAt": "2026-02-16T01:56:02.245Z"
+  },
+  {
+    "id": "1771206771680",
+    "action": "update",
+    "entity": "pricing-page",
+    "entityId": "1739667600000",
+    "details": "Fiyat sayfası güncellendi: Evden Eve Nakliyat Fiyatları",
+    "user": "admin",
+    "createdAt": "2026-02-16T01:52:51.680Z"
+  },
+  {
+    "id": "1771206740783",
+    "action": "update",
+    "entity": "pricing-page",
+    "entityId": "1739667600000",
+    "details": "Fiyat sayfası güncellendi: Evden Eve Nakliyat Fiyatları",
+    "user": "admin",
+    "createdAt": "2026-02-16T01:52:20.783Z"
+  },
+  {
+    "id": "1771206613988",
+    "action": "update",
+    "entity": "pricing-page",
+    "entityId": "1739667600000",
+    "details": "Fiyat sayfası güncellendi: Evden Eve Nakliyat Fiyatları",
+    "user": "admin",
+    "createdAt": "2026-02-16T01:50:13.988Z"
+  },
+  {
+    "id": "1771203817704",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T01:03:37.704Z"
+  },
+  {
+    "id": "1771203241052",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:54:01.052Z"
+  },
+  {
+    "id": "1771202986095",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:49:46.095Z"
+  },
+  {
+    "id": "1771202979014",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:49:39.014Z"
+  },
+  {
+    "id": "1771202974817",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:49:34.817Z"
+  },
+  {
+    "id": "1771202969896",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:49:29.896Z"
+  },
+  {
+    "id": "1771202918304",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:48:38.304Z"
+  },
+  {
+    "id": "1771202918192",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:48:38.192Z"
+  },
+  {
+    "id": "1771202917527",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:48:37.527Z"
+  },
+  {
+    "id": "1771202903484",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:48:23.484Z"
+  },
+  {
+    "id": "1771202848303",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:28.303Z"
+  },
+  {
+    "id": "1771202848157",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:28.157Z"
+  },
+  {
+    "id": "1771202847980",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:27.980Z"
+  },
+  {
+    "id": "1771202844293",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:24.293Z"
+  },
+  {
+    "id": "1771202829545",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:09.545Z"
+  },
+  {
+    "id": "1771202829357",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:09.357Z"
+  },
+  {
+    "id": "1771202829176",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:09.176Z"
+  },
+  {
+    "id": "1771202828598",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:08.598Z"
+  },
+  {
+    "id": "1771202828381",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:08.381Z"
+  },
+  {
+    "id": "1771202828224",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:08.224Z"
+  },
+  {
+    "id": "1771202828015",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:08.015Z"
+  },
+  {
+    "id": "1771202827109",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:07.109Z"
+  },
+  {
+    "id": "1771202821616",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:47:01.616Z"
+  },
+  {
+    "id": "1771202670044",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:30.044Z"
+  },
+  {
+    "id": "1771202669888",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:29.888Z"
+  },
+  {
+    "id": "1771202669777",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:29.777Z"
+  },
+  {
+    "id": "1771202669596",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:29.596Z"
+  },
+  {
+    "id": "1771202669394",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:29.394Z"
+  },
+  {
+    "id": "1771202669218",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:29.218Z"
+  },
+  {
+    "id": "1771202669066",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:29.066Z"
+  },
+  {
+    "id": "1771202668723",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:28.723Z"
+  },
+  {
+    "id": "1771202668577",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:28.577Z"
+  },
+  {
+    "id": "1771202668429",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:28.429Z"
+  },
+  {
+    "id": "1771202668272",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:28.272Z"
+  },
+  {
+    "id": "1771202668017",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:28.017Z"
+  },
+  {
+    "id": "1771202667849",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:27.849Z"
+  },
+  {
+    "id": "1771202667510",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:27.510Z"
+  },
+  {
+    "id": "1771202667356",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:27.356Z"
+  },
+  {
+    "id": "1771202667233",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:27.233Z"
+  },
+  {
+    "id": "1771202667100",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:27.100Z"
+  },
+  {
+    "id": "1771202666966",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:26.966Z"
+  },
+  {
+    "id": "1771202666859",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:26.859Z"
+  },
+  {
+    "id": "1771202666710",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:26.710Z"
+  },
+  {
+    "id": "1771202666569",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:26.569Z"
+  },
+  {
+    "id": "1771202666412",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:26.412Z"
+  },
+  {
+    "id": "1771202666265",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:26.265Z"
+  },
+  {
+    "id": "1771202660347",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:20.347Z"
+  },
+  {
+    "id": "1771202659936",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:19.936Z"
+  },
+  {
+    "id": "1771202659775",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:19.775Z"
+  },
+  {
+    "id": "1771202659622",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:19.622Z"
+  },
+  {
+    "id": "1771202659452",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:19.452Z"
+  },
+  {
+    "id": "1771202659292",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:19.292Z"
+  },
+  {
+    "id": "1771202658806",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:44:18.806Z"
+  },
+  {
+    "id": "1771202395052",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:55.052Z"
+  },
+  {
+    "id": "1771202394911",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.911Z"
+  },
+  {
+    "id": "1771202394752",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.752Z"
+  },
+  {
+    "id": "1771202394592",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.592Z"
+  },
+  {
+    "id": "1771202394447",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.447Z"
+  },
+  {
+    "id": "1771202394298",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.298Z"
+  },
+  {
+    "id": "1771202394155",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.155Z"
+  },
+  {
+    "id": "1771202394007",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:54.007Z"
+  },
+  {
+    "id": "1771202393815",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:53.815Z"
+  },
+  {
+    "id": "1771202392858",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:39:52.858Z"
+  },
+  {
+    "id": "1771202193143",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:36:33.143Z"
+  },
+  {
+    "id": "1771202192970",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:36:32.970Z"
+  },
+  {
+    "id": "1771202192819",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:36:32.820Z"
+  },
+  {
+    "id": "1771202192630",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:36:32.630Z"
+  },
+  {
+    "id": "1771202192147",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:36:32.147Z"
+  },
+  {
+    "id": "1771202191196",
+    "action": "update",
+    "entity": "advanced-pricing-config",
+    "entityId": "config",
+    "details": "Gelişmiş fiyatlandırma ayarları güncellendi",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:36:31.196Z"
+  },
+  {
+    "id": "1771201003120",
+    "action": "create",
+    "entity": "feedback",
+    "entityId": "1771201003113",
+    "details": "Yeni geri bildirim: 5/5 - /evden-eve-nakliyat-fiyatlari",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:16:43.120Z"
+  },
+  {
+    "id": "1771200748230",
+    "action": "create",
+    "entity": "feedback",
+    "entityId": "1771200748229",
+    "details": "Yeni geri bildirim: 5/5 - /fiyatlarimiz",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:12:28.230Z"
+  },
+  {
+    "id": "1771200576527",
+    "action": "create",
+    "entity": "feedback",
+    "entityId": "1771200576526",
+    "details": "Yeni geri bildirim: 5/5 - /",
+    "user": "admin",
+    "createdAt": "2026-02-16T00:09:36.527Z"
+  },
+  {
+    "id": "1771199976221",
+    "action": "create",
+    "entity": "feedback",
+    "entityId": "1771199976219",
+    "details": "Yeni geri bildirim: 5/5 - /",
+    "user": "admin",
+    "createdAt": "2026-02-15T23:59:36.221Z"
+  },
+  {
+    "id": "1771199950852",
+    "action": "create",
+    "entity": "feedback",
+    "entityId": "1771199950850",
+    "details": "Yeni geri bildirim: 5/5 - /",
+    "user": "admin",
+    "createdAt": "2026-02-15T23:59:10.852Z"
+  },
+  {
+    "id": "1771199357952",
+    "action": "create",
+    "entity": "feedback",
+    "entityId": "1771199357950",
+    "details": "Yeni geri bildirim: 5/5 - /",
+    "user": "admin",
+    "createdAt": "2026-02-15T23:49:17.952Z"
+  },
+  {
+    "id": "1771126502001",
+    "action": "create",
+    "entity": "tracking",
+    "entityId": "1771126501999",
+    "details": "Yeni takip: mehmet (KN-MLN6ZN8V)",
+    "user": "admin",
+    "createdAt": "2026-02-15T03:35:02.001Z"
+  },
+  {
+    "id": "1771124015934",
+    "action": "update",
+    "entity": "campaign",
+    "entityId": "kampanya-1",
+    "details": "Kampanya güncellendi: Kış Dönemi Taşınma Kampanyası",
+    "user": "admin",
+    "createdAt": "2026-02-15T02:53:35.934Z"
+  },
+  {
+    "id": "1771123215762",
+    "action": "create",
+    "entity": "survey",
+    "entityId": "1771123215756",
+    "details": "Yeni keşif talebi: mehmet ali",
+    "user": "admin",
+    "createdAt": "2026-02-15T02:40:15.762Z"
+  },
+  {
+    "id": "1771121819469",
+    "action": "create",
+    "entity": "quote",
+    "entityId": "1771121819461",
+    "details": "Yeni teklif: mehmet ali (Ofis Taşıma)",
+    "user": "admin",
+    "createdAt": "2026-02-15T02:16:59.469Z"
+  },
+  {
+    "id": "1771121629157",
+    "action": "create",
+    "entity": "quote",
+    "entityId": "1771121629151",
+    "details": "Yeni teklif: mehmet kara (Evden Eve Nakliyat)",
+    "user": "admin",
+    "createdAt": "2026-02-15T02:13:49.157Z"
+  },
+  {
+    "id": "1771121566368",
+    "action": "create",
+    "entity": "message",
+    "entityId": "1771121566365",
+    "details": "Yeni mesaj: mehmet",
+    "user": "admin",
+    "createdAt": "2026-02-15T02:12:46.368Z"
+  },
+  {
+    "id": "1771121143612",
+    "action": "create",
+    "entity": "message",
+    "entityId": "1771121143610",
+    "details": "Yeni mesaj: mehmet",
+    "user": "admin",
+    "createdAt": "2026-02-15T02:05:43.612Z"
+  },
+  {
+    "id": "1771104527091",
+    "action": "update",
+    "entity": "service",
+    "entityId": "1771032103798",
+    "details": "Hizmet güncellendi: Ev Taşıma",
+    "user": "admin",
+    "createdAt": "2026-02-14T21:28:47.091Z"
+  },
+  {
+    "id": "1771097871440",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771095186608",
+    "details": "Blog güncellendi: Nakliyat Sırasında Kullanılan Malzemeler Nelerdir?",
+    "user": "admin",
+    "createdAt": "2026-02-14T19:37:51.440Z"
+  },
+  {
+    "id": "1771097859330",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771095262864",
+    "details": "Blog güncellendi: Nakliyat'da Belediye Yardım Şartları Nelerdir?",
+    "user": "admin",
+    "createdAt": "2026-02-14T19:37:39.330Z"
+  },
+  {
+    "id": "1771097846579",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771095346820",
+    "details": "Blog güncellendi: İstanbul'un En Pahalı ve En Ucuz İlçeleri",
+    "user": "admin",
+    "createdAt": "2026-02-14T19:37:26.579Z"
+  },
+  {
+    "id": "1771097831716",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771095441015",
+    "details": "Blog güncellendi: Ev Taşıma Kolisi Nereden Bulunur?",
+    "user": "admin",
+    "createdAt": "2026-02-14T19:37:11.716Z"
+  },
+  {
+    "id": "1771095441017",
+    "action": "create",
+    "entity": "blog",
+    "entityId": "1771095441015",
+    "details": "Yeni blog: Ev Taşıma Kolisi Nereden Bulunur?",
+    "user": "admin",
+    "createdAt": "2026-02-14T18:57:21.017Z"
+  },
+  {
+    "id": "1771095346822",
+    "action": "create",
+    "entity": "blog",
+    "entityId": "1771095346820",
+    "details": "Yeni blog: İstanbul'un En Pahalı ve En Ucuz İlçeleri",
+    "user": "admin",
+    "createdAt": "2026-02-14T18:55:46.822Z"
+  },
+  {
+    "id": "1771095262867",
+    "action": "create",
+    "entity": "blog",
+    "entityId": "1771095262864",
+    "details": "Yeni blog: Nakliyat'da Belediye Yardım Şartları Nelerdir?",
+    "user": "admin",
+    "createdAt": "2026-02-14T18:54:22.867Z"
+  },
+  {
+    "id": "1771095196397",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771095186608",
+    "details": "Blog güncellendi: Nakliyat Sırasında Kullanılan Malzemeler Nelerdir?",
+    "user": "admin",
+    "createdAt": "2026-02-14T18:53:16.397Z"
+  },
+  {
+    "id": "1771095186610",
+    "action": "create",
+    "entity": "blog",
+    "entityId": "1771095186608",
+    "details": "Yeni blog: Nakliyat Sırasında Kullanılan Malzemeler Nelerdir?",
+    "user": "admin",
+    "createdAt": "2026-02-14T18:53:06.610Z"
+  },
+  {
+    "id": "1771092872853",
+    "action": "create",
+    "entity": "review",
+    "entityId": "1771092872847",
+    "details": "Yeni yorum: Mehmet Ali Karaoğlu (5★)",
+    "user": "admin",
+    "createdAt": "2026-02-14T18:14:32.853Z"
+  },
+  {
+    "id": "1771088835855",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T17:07:15.855Z"
+  },
+  {
+    "id": "1771087405019",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:43:25.019Z"
+  },
+  {
+    "id": "1771087096502",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:38:16.502Z"
+  },
+  {
+    "id": "1771087086894",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:38:06.894Z"
+  },
+  {
+    "id": "1771086740571",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:32:20.571Z"
+  },
+  {
+    "id": "1771086686371",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:31:26.371Z"
+  },
+  {
+    "id": "1771086361365",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:26:01.365Z"
+  },
+  {
+    "id": "1771086332265",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:25:32.265Z"
+  },
+  {
+    "id": "1771086328310",
+    "action": "update",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Blog güncellendi: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:25:28.310Z"
+  },
+  {
+    "id": "1771086315544",
+    "action": "delete",
+    "entity": "blog",
+    "entityId": "1771085146688",
+    "details": "Blog silindi",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:25:15.544Z"
+  },
+  {
+    "id": "1771085146692",
+    "action": "create",
+    "entity": "blog",
+    "entityId": "1771085146688",
+    "details": "Yeni blog: a",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:05:46.692Z"
+  },
+  {
+    "id": "1771085142285",
+    "action": "create",
+    "entity": "blog",
+    "entityId": "1771085142283",
+    "details": "Yeni blog: İstanbul'da Yaşanacak En Güzel Yerler",
+    "user": "admin",
+    "createdAt": "2026-02-14T16:05:42.285Z"
+  }
+]
