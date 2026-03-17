@@ -47,6 +47,7 @@ const NAV_GROUPS = [
         icon: FileEdit,
         isAccordion: true,
         children: [
+          { label: "Tüm Sayfalar", href: "/admin/pages", icon: FileEdit },
           { label: "Sözleşmeler", href: "/admin/contracts", icon: ScrollText },
           { label: "Politikalar", href: "/admin/policies", icon: Shield },
         ],
@@ -103,6 +104,7 @@ const NAV_GROUPS = [
         icon: Settings,
         isAccordion: true,
         children: [
+          { label: "Genel Ayarlar", href: "/admin/settings", icon: Settings },
           { label: "Footer", href: "/admin/footer", icon: FileEdit },
         ],
       },
