@@ -8,10 +8,10 @@ import { getPageData } from "@/lib/get-page-data";
 import type { Metadata } from "next";
 
 const UNITS = [
-  { title: "Küçük Birim", size: "5 m²", desc: "1+1 ev eşyası, öğrenci eşyası", price: "1.500 TL/ay" },
-  { title: "Orta Birim", size: "10 m²", desc: "2+1 ev eşyası, ofis eşyası", price: "2.500 TL/ay" },
-  { title: "Büyük Birim", size: "20 m²", desc: "3+1 ve üstü ev eşyası", price: "4.000 TL/ay" },
-  { title: "Özel Birim", size: "30+ m²", desc: "Villa, işyeri, özel projeler", price: "Teklif alın" },
+  { title: "Küçük Birim", size: "5 m³", desc: "1+1 ev eşyası, öğrenci eşyası", price: "1.500 TL/ay" },
+  { title: "Orta Birim", size: "10 m³", desc: "2+1 ev eşyası, ofis eşyası", price: "2.500 TL/ay" },
+  { title: "Büyük Birim", size: "20 m³", desc: "3+1 ve üstü ev eşyası", price: "4.000 TL/ay" },
+  { title: "Özel Birim", size: "30+ m³", desc: "Villa, işyeri, özel projeler", price: "Teklif alın" },
 ];
 
 const FEATURES = [
