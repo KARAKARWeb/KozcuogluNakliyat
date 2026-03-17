@@ -103,8 +103,7 @@ export default async function SiteHaritasiPage() {
                   { label: "Kurumsal Referanslar", href: "/kurumsal-referanslar" },
                   { label: "SSS", href: "/sikca-sorulan-sorular" },
                   { label: "Kampanyalar", href: "/kampanyalar" },
-                  { label: "Taşıma Takip", href: "/tasima-takip" },
-                  { label: "Taşıma Kontrol Listesi", href: "/tasima-kontrol-listesi" },
+                  { label: "Taşınma Kontrol Listesi", href: "/tasinma-kontrol-listesi" },
                 ].map((item) => (
                   <li key={item.href}><Link href={item.href} className={linkCls}>{item.label}</Link></li>
                 ))}

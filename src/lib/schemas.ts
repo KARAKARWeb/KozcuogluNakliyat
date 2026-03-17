@@ -545,22 +545,7 @@ export function intercityMovingSchema(opts: {
           },
         }
       : {}),
-    ...(opts.aggregateRating
-      ? {
-          aggregateRating: { "@type": "AggregateRating", ratingValue: opts.aggregateRating.ratingValue, reviewCount: opts.aggregateRating.reviewCount, bestRating: "5", worstRating: "1" },
-        }
-      : {}),
-    ...(opts.reviews && opts.reviews.length > 0
-      ? {
-          review: opts.reviews.map((r) => ({
-            "@type": "Review",
-            author: { "@type": "Person", name: r.author },
-            reviewRating: { "@type": "Rating", ratingValue: r.ratingValue, bestRating: "5", worstRating: "1" },
-            reviewBody: r.reviewBody,
-            datePublished: r.datePublished || new Date().toISOString().split("T")[0],
-          })),
-        }
-      : {}),
+    isPartOf: `${SITE_URL}/hizmet-bolgeleri#itemlist`,
   };
 }
 
@@ -617,22 +602,7 @@ export function districtMovingSchema(opts: {
           },
         }
       : {}),
-    ...(opts.aggregateRating
-      ? {
-          aggregateRating: { "@type": "AggregateRating", ratingValue: opts.aggregateRating.ratingValue, reviewCount: opts.aggregateRating.reviewCount, bestRating: "5", worstRating: "1" },
-        }
-      : {}),
-    ...(opts.reviews && opts.reviews.length > 0
-      ? {
-          review: opts.reviews.map((r) => ({
-            "@type": "Review",
-            author: { "@type": "Person", name: r.author },
-            reviewRating: { "@type": "Rating", ratingValue: r.ratingValue, bestRating: "5", worstRating: "1" },
-            reviewBody: r.reviewBody,
-            datePublished: r.datePublished || new Date().toISOString().split("T")[0],
-          })),
-        }
-      : {}),
+    isPartOf: `${SITE_URL}/hizmet-bolgeleri#itemlist`,
   };
 }
 
