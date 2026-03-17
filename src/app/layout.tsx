@@ -27,7 +27,7 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: {
       default: "Kozcuoğlu Nakliyat | İstanbul Evden Eve Nakliyat",
-      template: "%s | Kozcuoğlu Nakliyat",
+      template: "%s",
     },
     description:
       "İstanbul evden eve nakliyat, ofis taşıma, eşya depolama hizmetleri. Sigortalı taşımacılık, profesyonel ekip. 7/24 hizmet. ☎ 444 7 436",
