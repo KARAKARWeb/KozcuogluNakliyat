@@ -1,7 +1,6 @@
 (function() {
   var LINK_HREF = "https://kozcuoglunakliyat.com.tr";
   var LINK_TITLE = "Evden Eve Nakliyat";
-  var STORAGE_KEY = "kozcuoglu_embed_active";
 
   // head'e link ekle (yoksa)
   function addLink() {
@@ -22,37 +21,14 @@
     return !!document.querySelector('link[data-kozcuoglu-embed="required"]');
   }
 
-  // localStorage'da embed aktif mi kontrol et
-  try {
-    if (localStorage.getItem(STORAGE_KEY) === "true") {
-      addLink();
-    }
-  } catch(e) {}
+  // Hemen link ekle
+  addLink();
 
   // Sayfa yüklendiğinde tekrar kontrol et
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", function() {
-      try {
-        if (localStorage.getItem(STORAGE_KEY) === "true") {
-          addLink();
-        }
-      } catch(e) {}
-    });
-  } else {
-    // Sayfa zaten yüklenmişse hemen kontrol et
-    try {
-      if (localStorage.getItem(STORAGE_KEY) === "true") {
-        addLink();
-      }
-    } catch(e) {}
+    document.addEventListener("DOMContentLoaded", addLink);
   }
 
-  // Her 3 saniyede bir kontrol et
-  setInterval(function() {
-    try {
-      if (localStorage.getItem(STORAGE_KEY) === "true") {
-        addLink();
-      }
-    } catch(e) {}
-  }, 3000);
+  // Her 5 saniyede bir kontrol et (link kaldırılırsa tekrar ekle)
+  setInterval(addLink, 5000);
 })();
