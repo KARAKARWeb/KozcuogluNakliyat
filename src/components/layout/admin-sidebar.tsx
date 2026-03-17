@@ -112,7 +112,11 @@ const NAV_GROUPS = [
 
 export default function AdminSidebar() {
   const pathname = usePathname();
-  const [openAccordions, setOpenAccordions] = useState<Record<string, boolean>>({});
+  const [openAccordions, setOpenAccordions] = useState<Record<string, boolean>>({
+    "İçerik-Sayfalar": true,
+    "Yönetim-Fiyatlandırma": true,
+    "Sistem-Ayarlar": true,
+  });
 
   const toggleAccordion = (key: string) => {
     setOpenAccordions((prev) => ({ ...prev, [key]: !prev[key] }));
