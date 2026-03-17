@@ -36,7 +36,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/galeri`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/sozlesmeler`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/referanslarimiz`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
-    { url: `${SITE_URL}/tasima-kontrol-listesi`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${SITE_URL}/tasinma-kontrol-listesi`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/ekibimiz`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/site-haritasi`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/insan-kaynaklari`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
