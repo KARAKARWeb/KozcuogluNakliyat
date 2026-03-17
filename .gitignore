@@ -40,9 +40,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# data files (will be synced separately)
-/src/data/*.json
-!/src/data/.gitkeep
+# data files - commented out to allow deployment
+# /src/data/*.json
+# !/src/data/.gitkeep
 
 # uploads (will be synced separately)
 /public/uploads/*
