@@ -99,7 +99,7 @@ export default async function SiteFooter() {
 
           {/* 2. Çözümlerimiz */}
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Çözümlerimiz</h4>
+            <h4 className="mb-4 text-lg font-bold text-white">Çözümlerimiz</h4>
             <ul className="space-y-2">
               <li><Link href="/ekspertiz" className="text-sm text-gray-400 transition hover:text-white">Ücretsiz Ekspertiz</Link></li>
               <li><Link href="/sigortali-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Sigortalı Ev Taşıma</Link></li>
@@ -111,7 +111,7 @@ export default async function SiteFooter() {
 
           {/* 3. Hizmetlerimiz */}
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Hizmetlerimiz</h4>
+            <h4 className="mb-4 text-lg font-bold text-white">Hizmetlerimiz</h4>
             <ul className="space-y-2">
               <li><Link href="/ev-tasima" className="text-sm text-gray-400 transition hover:text-white">Ev Taşımacılığı</Link></li>
               <li><Link href="/villa-tasimaciligi" className="text-sm text-gray-400 transition hover:text-white">Villa Taşımacılığı</Link></li>
@@ -124,7 +124,7 @@ export default async function SiteFooter() {
 
           {/* 4. Depolama */}
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Depolama</h4>
+            <h4 className="mb-4 text-lg font-bold text-white">Eşya Depolama</h4>
             <ul className="space-y-2">
               <li><Link href="/esya-depolama?tip=1+1" className="text-sm text-gray-400 transition hover:text-white">1+1 Ev Eşyası Depolama</Link></li>
               <li><Link href="/esya-depolama?tip=2+1" className="text-sm text-gray-400 transition hover:text-white">2+1 Ev Eşyası Depolama</Link></li>
@@ -136,7 +136,7 @@ export default async function SiteFooter() {
 
           {/* 5. Fiyatlarımız */}
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Fiyatlarımız</h4>
+            <h4 className="mb-4 text-lg font-bold text-white">Fiyatlarımız</h4>
             <ul className="space-y-2">
               <li><Link href="/nakliyat-fiyat-hesaplama" className="text-sm text-gray-400 transition hover:text-white">Fiyat Hesapla</Link></li>
               <li><Link href="/evden-eve-nakliyat-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Ev Taşıma Fiyatları</Link></li>
@@ -148,7 +148,7 @@ export default async function SiteFooter() {
 
           {/* 6. İletişim Bilgileri */}
           <div>
-            <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">İletişim Bilgileri</h4>
+            <h4 className="mb-4 text-lg font-bold text-white">İletişim Bilgileri</h4>
             <address className="not-italic space-y-3 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <Phone className="h-4 w-4 shrink-0 text-white" />
