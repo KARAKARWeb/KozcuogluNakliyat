@@ -95,9 +95,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Bayrampaşa Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Bayrampaşa Evden Eve Nakliyat Fiyatları",
       "description": "Bayrampaşa evden eve nakliyat için keşif, paketleme, sigorta, asansör ve depolama adımlarını öğrenin. Kozcuoğlu ile taşıyın. Ücret detayını görün.",
-      "ogImage": "/uploads/regions/bayrampasa-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -105,7 +105,7 @@
     "order": 5,
     "isActive": true,
     "createdAt": "2026-02-14T00:13:51.648Z",
-    "updatedAt": "2026-02-14T00:13:51.649Z"
+    "updatedAt": "2026-03-17T21:34:04.976Z"
   },
   {
     "id": "5",
@@ -122,9 +122,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Başakşehir Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Başakşehir Evden Eve Nakliyat Fiyatları",
       "description": "Başakşehir evden eve nakliyat için keşif, sigorta, asansör ve paketleme. Kozcuoğlu Nakliyat planı kurar, hasarsız teslimi hedefler, yükü hafifletir.",
-      "ogImage": "/uploads/regions/basaksehir-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -132,7 +132,7 @@
     "order": 6,
     "isActive": true,
     "createdAt": "2026-02-14T00:13:54.011Z",
-    "updatedAt": "2026-02-14T00:13:54.011Z"
+    "updatedAt": "2026-03-17T21:33:53.744Z"
   },
   {
     "id": "6",
@@ -149,9 +149,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Sultangazi Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Sultangazi Evden Eve Nakliyat Fiyatları",
       "description": "Sultangazi evden eve nakliyat için sigortalı, asansörlü, paketlemeli taşıma. Kozcuoğlu Nakliyat keşif, sözleşme, depo ve net fiyat sunar, takip eder.",
-      "ogImage": "/uploads/regions/sultangazi-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -159,7 +159,7 @@
     "order": 7,
     "isActive": true,
     "createdAt": "2026-02-14T00:13:56.373Z",
-    "updatedAt": "2026-02-14T00:13:56.373Z"
+    "updatedAt": "2026-03-17T21:34:01.193Z"
   },
   {
     "id": "7",
@@ -203,9 +203,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Gaziosmanpaşa Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Gaziosmanpaşa Evden Eve Nakliyat Fiyatları",
       "description": "Gaziosmanpaşa evden eve nakliyat: sigortalı, asansörlü, sözleşmeli taşıma. Kozcuoğlu ile uzman ekip, titiz paketleme, net fiyat.",
-      "ogImage": "/uploads/regions/gaziosmanpasa-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -213,7 +213,7 @@
     "order": 9,
     "isActive": true,
     "createdAt": "2026-02-14T00:14:00.984Z",
-    "updatedAt": "2026-02-14T00:14:00.984Z"
+    "updatedAt": "2026-03-17T21:33:51.608Z"
   },
   {
     "id": "9",
@@ -284,9 +284,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Küçükçekmece Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Küçükçekmece Evden Eve Nakliyat Fiyatları",
       "description": "Küçükçekmece evden eve nakliyat için sigortalı ve asansörlü taşıma. Kozcuoğlu Nakliyatla planlı ekip ve paketleme. Hasarsız teslim güvencesi.",
-      "ogImage": "/uploads/regions/kucukcekmece-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -294,7 +294,7 @@
     "order": 12,
     "isActive": true,
     "createdAt": "2026-02-14T00:14:08.113Z",
-    "updatedAt": "2026-02-14T00:14:08.113Z"
+    "updatedAt": "2026-03-17T21:33:57.868Z"
   },
   {
     "id": "12",
@@ -311,9 +311,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Bahçelievler Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Bahçelievler Evden Eve Nakliyat Fiyatları",
       "description": "Bahçelievler evden eve nakliyat için sigortalı, sözleşmeli, asansörlü taşıma. Kozcuoğlu Nakliyat ile planlı ekip, güçlü paketleme, hasarsız teslim.",
-      "ogImage": "/uploads/regions/bahcelievler-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -321,7 +321,7 @@
     "order": 13,
     "isActive": true,
     "createdAt": "2026-02-14T00:14:10.572Z",
-    "updatedAt": "2026-02-14T00:14:10.572Z"
+    "updatedAt": "2026-03-17T21:34:04.289Z"
   },
   {
     "id": "13",
@@ -338,9 +338,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Arnavutköy Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Arnavutköy Evden Eve Nakliyat Fiyatları",
       "description": "Arnavutköy Evden Eve Nakliyat için sigortalı, sözleşmeli ve asansörlü taşıma çözümleri. Kozcuoğlu Nakliyatla planlı, hızlı, güvenli taşının, rahat edin.",
-      "ogImage": "/uploads/regions/arnavutkoy-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -348,7 +348,7 @@
     "order": 14,
     "isActive": true,
     "createdAt": "2026-02-14T00:14:13.141Z",
-    "updatedAt": "2026-02-14T00:14:13.141Z"
+    "updatedAt": "2026-03-17T21:33:54.468Z"
   },
   {
     "id": "14",
@@ -446,9 +446,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Büyükçekmece Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Büyükçekmece Evden Eve Nakliyat Fiyatları",
       "description": "Büyükçekmece evden eve nakliyat rehberi: keşif, sigorta, asansör, paketleme, depolama ve güncel fiyat tablosu; sözleşmeli güvenli taşıma ipuçları.",
-      "ogImage": "/uploads/regions/buyukcekmece-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -456,7 +456,7 @@
     "order": 18,
     "isActive": true,
     "createdAt": "2026-02-14T00:14:22.573Z",
-    "updatedAt": "2026-02-14T00:14:22.573Z"
+    "updatedAt": "2026-03-17T21:33:55.785Z"
   },
   {
     "id": "18",
@@ -473,9 +473,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Zeytinburnu Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Zeytinburnu Evden Eve Nakliyat Fiyatları",
       "description": "Zeytinburnu evden eve nakliyat rehberi: keşif, paketleme, sigorta, asansör, şehiriçi-şehirlerarası plan ve fiyat tablosu; sözleşmeli güvenli taşıma.",
-      "ogImage": "/uploads/regions/zeytinburnu-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -483,7 +483,7 @@
     "order": 19,
     "isActive": true,
     "createdAt": "2026-02-14T00:14:24.973Z",
-    "updatedAt": "2026-02-14T00:14:24.973Z"
+    "updatedAt": "2026-03-17T21:33:55.136Z"
   },
   {
     "id": "19",
@@ -608,9 +608,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Anadolu Yakası Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Anadolu Yakası Evden Eve Nakliyat Fiyatları",
       "description": "Anadolu Yakası evden eve nakliyat rehberi: ücretsiz ekspertiz, sigorta, asansörlü taşıma, paketleme-ambalaj, montaj, depolama, rota-planı ve güncel fiyat tablosu.",
-      "ogImage": "/uploads/regions/anadolu-yakasi-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -618,7 +618,7 @@
     "order": 24,
     "isActive": true,
     "createdAt": "2026-02-14T00:15:02.877Z",
-    "updatedAt": "2026-02-14T00:15:02.877Z"
+    "updatedAt": "2026-03-17T21:33:56.444Z"
   },
   {
     "id": "24",
@@ -662,9 +662,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Avrupa Yakası Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Avrupa Yakası Evden Eve Nakliyat Fiyatları",
       "description": "Avrupa Yakası evden eve nakliyat için keşif, paketleme, asansör, sigorta, montaj, depolama ve fiyat tablosu; sürprizsiz taşınma için pratik rehber.",
-      "ogImage": "/uploads/regions/avrupa-yakasi-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -672,7 +672,7 @@
     "order": 26,
     "isActive": true,
     "createdAt": "2026-02-14T00:16:40.280Z",
-    "updatedAt": "2026-02-14T00:16:40.280Z"
+    "updatedAt": "2026-03-17T21:33:57.188Z"
   },
   {
     "id": "26",
@@ -716,9 +716,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Eyüpsultan Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Eyüpsultan Evden Eve Nakliyat Fiyatları",
       "description": "Eyüpsultan evden eve nakliyat fiyatları: ücretsiz keşif, ambalaj, asansör, sigorta, montaj, depolama ve güncel fiyat tablosu ile risksiz taşının hemen.",
-      "ogImage": "/uploads/regions/eyupsultan-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -726,7 +726,7 @@
     "order": 28,
     "isActive": true,
     "createdAt": "2026-02-14T00:16:45.019Z",
-    "updatedAt": "2026-02-14T00:16:45.020Z"
+    "updatedAt": "2026-03-17T21:33:59.955Z"
   },
   {
     "id": "28",
@@ -743,9 +743,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Beykoz Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Şirketi",
+      "title": "Beykoz Evden Eve Nakliyat Fiyatları 2026",
       "description": "Beykoz evden eve nakliyatta keşif, paketleme, sigorta ve asansör kararlarını netleştirin; fiyat tablosu ve kontrol listesiyle güvenle taşının, rahat edin.",
-      "ogImage": "/uploads/regions/beykoz-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -753,7 +753,7 @@
     "order": 29,
     "isActive": true,
     "createdAt": "2026-02-14T00:16:48.505Z",
-    "updatedAt": "2026-02-14T00:16:48.505Z"
+    "updatedAt": "2026-03-17T21:30:19.095Z"
   },
   {
     "id": "29",
@@ -770,9 +770,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Acıbadem Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Acıbadem Evden Eve Nakliyat Fiyatları 2026",
       "description": "Acıbadem evden eve nakliyatta ekspertiz, paketleme, sigorta ve asansör sürecini öğrenin; fiyat tablosu ve seçim kriterleriyle doğru karar verin kolayca.",
-      "ogImage": "/uploads/regions/acibadem-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -780,7 +780,7 @@
     "order": 30,
     "isActive": true,
     "createdAt": "2026-02-14T00:16:49.864Z",
-    "updatedAt": "2026-02-14T00:16:49.864Z"
+    "updatedAt": "2026-03-17T21:30:12.446Z"
   },
   {
     "id": "30",
@@ -824,9 +824,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Mecidiyeköy Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Mecidiyeköy Evden Eve Nakliyat Fiyatları 2026",
       "description": "Mecidiyeköy taşınmanız için ücretsiz ekspertiz, profesyonel ambalaj, asansör ve sigorta desteğiyle planlı, güvenli, hızlı nakliyat rehberi sunar.",
-      "ogImage": "/uploads/regions/mecidiyekoy-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -834,7 +834,7 @@
     "order": 32,
     "isActive": true,
     "createdAt": "2026-02-14T00:16:55.650Z",
-    "updatedAt": "2026-02-14T00:16:55.650Z"
+    "updatedAt": "2026-03-17T21:30:15.499Z"
   },
   {
     "id": "32",
@@ -851,9 +851,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Kısıklı Evden Eve Nakliyat ve Fiyatları 2026",
+      "title": "Kısıklı Evden Eve Nakliyat ve Fiyatları",
       "description": "Kısıklı evden eve nakliyat hizmeti, taşınmayı “yük taşıma” değil, planlı bir süreç olarak ele alan profesyonel bir yaklaşımla yürütülmelidir. Eşyaların doğru",
-      "ogImage": "/uploads/regions/kisikli-evden-eve-nakliye-hizmeti-1.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -861,7 +861,7 @@
     "order": 33,
     "isActive": true,
     "createdAt": "2026-02-14T00:16:58.014Z",
-    "updatedAt": "2026-02-14T00:16:58.014Z"
+    "updatedAt": "2026-03-17T21:34:02.127Z"
   },
   {
     "id": "33",
@@ -959,9 +959,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Bağlarbaşı Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Bağlarbaşı Evden Eve Nakliyat Fiyatları",
       "description": "Bağlarbaşı evden eve nakliyat fiyatları: ücretsiz ekspertiz, ambalajlama, sigorta, asansör ve fiyat tablosu. Kozcuoğlu Nakliyat odaklı pratik adımlar.",
-      "ogImage": "/uploads/regions/baglarbasi-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -969,7 +969,7 @@
     "order": 37,
     "isActive": true,
     "createdAt": "2026-02-14T00:17:06.956Z",
-    "updatedAt": "2026-02-14T00:17:06.956Z"
+    "updatedAt": "2026-03-17T21:34:02.886Z"
   },
   {
     "id": "37",
@@ -986,9 +986,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Beylerbeyi Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Beylerbeyi Evden Eve Nakliyat Fiyatları",
       "description": "Beylerbeyi evden eve nakliyat rehberi: ücretsiz ekspertiz, sigortalı taşıma, asansör, ambalaj, montaj ve güncel fiyat tablosu ile risksiz taşının.",
-      "ogImage": "/uploads/regions/beylerbeyi-evden-eve-nakliyat-hizmetleri.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -996,7 +996,7 @@
     "order": 38,
     "isActive": true,
     "createdAt": "2026-02-14T00:17:09.351Z",
-    "updatedAt": "2026-02-14T00:17:09.351Z"
+    "updatedAt": "2026-03-17T21:33:53.005Z"
   },
   {
     "id": "38",
@@ -1148,9 +1148,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Uğurmumcu Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Uğurmumcu Evden Eve Nakliyat Fiyatları 2026",
       "description": "Uğurmumcu evden eve nakliyat rehberi: keşif, sigorta, asansör, paketleme, depolama ve sözleşme adımlarıyla, taşınmayı planlı ve risksiz yönetin kolayca.",
-      "ogImage": "/uploads/regions/ugurmumcu-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1158,7 +1158,7 @@
     "order": 44,
     "isActive": true,
     "createdAt": "2026-02-14T00:17:23.725Z",
-    "updatedAt": "2026-02-14T00:17:23.725Z"
+    "updatedAt": "2026-03-17T21:30:21.001Z"
   },
   {
     "id": "44",
@@ -1175,9 +1175,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Fikirtepe Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Fikirtepe Evden Eve Nakliyat Fiyatları 2026",
       "description": "Fikirtepe’de ev taşıma planı, keşif, paketleme, asansör, sigorta ve fiyat adımlarını öğrenin; eşyayı düzenli şekilde yeni adrese güvenle taşıyın.",
-      "ogImage": "/uploads/regions/fikirtepe-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1185,7 +1185,7 @@
     "order": 45,
     "isActive": true,
     "createdAt": "2026-02-14T00:17:25.990Z",
-    "updatedAt": "2026-02-14T00:17:25.990Z"
+    "updatedAt": "2026-03-17T21:30:13.686Z"
   },
   {
     "id": "45",
@@ -1229,9 +1229,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Fenerbahçe Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Fenerbahçe Evden Eve Nakliyat Fiyatları",
       "description": "Fenerbahçe’de ev taşıma için keşif, paketleme, sigorta ve asansör planını öğrenin; Kozcuoğlu Nakliyat ile güvenli, düzenli taşının.",
-      "ogImage": "/uploads/regions/fenerbahce-evden-eve-nakliyat-ve-tasima.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1239,7 +1239,7 @@
     "order": 47,
     "isActive": true,
     "createdAt": "2026-02-14T00:17:31.437Z",
-    "updatedAt": "2026-02-14T00:17:31.437Z"
+    "updatedAt": "2026-03-17T21:33:59.225Z"
   },
   {
     "id": "47",
@@ -1310,9 +1310,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Acarlar Evden Eve Nakliyat Fiyatları 2026 - En iyi Ev Taşıma",
+      "title": "Acarlar Evden Eve Nakliyat Fiyatları 2026",
       "description": "Acarlar evden eve nakliyatta keşif, paketleme, asansör, sigorta ve fiyat adımlarını öğrenin; planlı taşıma ile eşyayı güvenle yeni adrese ulaştırın.",
-      "ogImage": "/uploads/regions/acarlar-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1320,7 +1320,7 @@
     "order": 50,
     "isActive": true,
     "createdAt": "2026-02-14T00:17:38.940Z",
-    "updatedAt": "2026-02-14T00:17:38.940Z"
+    "updatedAt": "2026-03-17T21:30:23.394Z"
   },
   {
     "id": "50",
@@ -1364,9 +1364,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Göktürk Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Göktürk Evden Eve Nakliyat Fiyatları 2026",
       "description": "Göktürk evden eve nakliyat için keşif, paketleme, sigorta ve asansör planını netleştirin; fiyat tablosu ve adım adım kontrol listesiyle rahatça taşının.",
-      "ogImage": "/uploads/regions/gokturk-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1374,7 +1374,7 @@
     "order": 52,
     "isActive": true,
     "createdAt": "2026-02-14T00:19:15.857Z",
-    "updatedAt": "2026-02-14T00:19:15.857Z"
+    "updatedAt": "2026-03-17T21:30:11.186Z"
   },
   {
     "id": "52",
@@ -1391,9 +1391,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Suadiye Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Şirket",
+      "title": "Suadiye Evden Eve Nakliyat Fiyatları 2026",
       "description": "Suadiye evden eve nakliyat planı: ücretsiz ekspertiz, sigorta, asansör, paketleme ve depolama. Kozcuoğlu ile şeffaf teklif, güvenli taşıma, hızlı kurulum.",
-      "ogImage": "/uploads/regions/suadiye-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1401,7 +1401,7 @@
     "order": 53,
     "isActive": true,
     "createdAt": "2026-02-14T00:19:18.284Z",
-    "updatedAt": "2026-02-14T00:19:18.284Z"
+    "updatedAt": "2026-03-17T21:30:14.902Z"
   },
   {
     "id": "53",
@@ -1445,9 +1445,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Şile Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Şirketi",
+      "title": "Şile Evden Eve Nakliyat Fiyatları 2026",
       "description": "Şile’de güvenli ev taşıma için keşif, sigorta, asansör, paketleme ve depolama adımlarını öğrenin; fiyatları ve sözleşme ayrıntılarını net hemen görün.",
-      "ogImage": "/uploads/regions/sile-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1455,7 +1455,7 @@
     "order": 55,
     "isActive": true,
     "createdAt": "2026-02-14T00:19:23.656Z",
-    "updatedAt": "2026-02-14T00:19:23.656Z"
+    "updatedAt": "2026-03-17T21:30:24.815Z"
   },
   {
     "id": "55",
@@ -1769,9 +1769,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Yakacık Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Firma",
+      "title": "Yakacık Evden Eve Nakliyat Fiyatları 2026",
       "description": "Yakacık evden eve nakliyat rehberi: keşif, paketleme, sigorta, asansör ve fiyatlar. Sözleşme ayrıntıları ve pratik kontrol listeleri burada, hemen.",
-      "ogImage": "/uploads/regions/yakacik-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1779,7 +1779,7 @@
     "order": 67,
     "isActive": true,
     "createdAt": "2026-02-14T00:19:51.514Z",
-    "updatedAt": "2026-02-14T00:19:51.514Z"
+    "updatedAt": "2026-03-17T21:30:17.878Z"
   },
   {
     "id": "67",
@@ -1796,9 +1796,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Rahmanlar Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Rahmanlar Evden Eve Nakliyat Fiyatları 2026",
       "description": "Rahmanlar Evden Eve Nakliyat için keşif, paketleme, asansör ve sigorta adımlarıyla plan kurun; fiyat kalemlerini öğrenin, sorunsuz taşının.",
-      "ogImage": "/uploads/regions/rahmanlar-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1806,7 +1806,7 @@
     "order": 68,
     "isActive": true,
     "createdAt": "2026-02-14T00:19:53.862Z",
-    "updatedAt": "2026-02-14T00:19:53.862Z"
+    "updatedAt": "2026-03-17T21:30:21.592Z"
   },
   {
     "id": "68",
@@ -1904,9 +1904,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Caddebostan Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Caddebostan Evden Eve Nakliyat Fiyatları",
       "description": "Caddebostan Evden Eve Nakliyat için ekspertiz, ambalaj, sigorta ve asansör planını öğrenin; şeffaf fiyat aralığı ve kontrol listesi burada.",
-      "ogImage": "/uploads/regions/caddebostan-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1914,7 +1914,7 @@
     "order": 72,
     "isActive": true,
     "createdAt": "2026-02-14T00:21:52.650Z",
-    "updatedAt": "2026-02-14T00:21:52.650Z"
+    "updatedAt": "2026-03-17T21:33:58.526Z"
   },
   {
     "id": "72",
@@ -1958,9 +1958,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Küçükbakkalköy Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Küçükbakkalköy Evden Eve Nakliyat Fiyatları",
       "description": "Küçükbakkalköy’de ücretsiz ekspertizden asansörlü taşıma planına kadar tüm adımları öğrenin; sigortalı, sözleşmeli ve şeffaf fiyatlarla taşının.",
-      "ogImage": "/uploads/regions/kucukbakkalkoy-evden-eve-nakliyat-istanbul.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -1968,7 +1968,7 @@
     "order": 74,
     "isActive": true,
     "createdAt": "2026-02-14T00:21:57.351Z",
-    "updatedAt": "2026-02-14T00:21:57.351Z"
+    "updatedAt": "2026-03-17T21:33:50.815Z"
   },
   {
     "id": "74",
@@ -2012,9 +2012,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Altunizade Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Altunizade Evden Eve Nakliyat Fiyatları 2026",
       "description": "Altunizade evden eve nakliyatta keşif, sigorta, asansör ve paketleme adımlarını öğrenin; fiyatı belirleyen etkenlerle, tek sözleşmede güvenle taşının.",
-      "ogImage": "/uploads/regions/altunizade-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2022,7 +2022,7 @@
     "order": 76,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:01.422Z",
-    "updatedAt": "2026-02-14T00:22:01.422Z"
+    "updatedAt": "2026-03-17T21:30:20.359Z"
   },
   {
     "id": "76",
@@ -2039,9 +2039,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Burhaniye Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Burhaniye Evden Eve Nakliyat Fiyatları 2026",
       "description": "Burhaniye evden eve nakliyat için keşif, sigorta, asansör ve paketleme rehberi. Kozcuoğlu ile planlı taşıma, net fiyat, güvenli teslim; tek sayfada.",
-      "ogImage": "/uploads/regions/burhaniye-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2049,7 +2049,7 @@
     "order": 77,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:03.933Z",
-    "updatedAt": "2026-02-14T00:22:03.933Z"
+    "updatedAt": "2026-03-17T21:30:16.662Z"
   },
   {
     "id": "77",
@@ -2066,9 +2066,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Çengelköy Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Çengelköy Evden Eve Nakliyat Fiyatları 2026",
       "description": "Çengelköy Evden Eve Nakliyat için keşif, sigorta, asansör ve paketleme adımlarını öğrenin; maliyet etkenlerini görün, doğru firma seçimini hızlandırın.",
-      "ogImage": "/uploads/regions/cengelkoy-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2076,7 +2076,7 @@
     "order": 78,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:06.398Z",
-    "updatedAt": "2026-02-14T00:22:06.398Z"
+    "updatedAt": "2026-03-17T21:30:16.105Z"
   },
   {
     "id": "78",
@@ -2120,9 +2120,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Çamlıca Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Çamlıca Evden Eve Nakliyat Fiyatları 2026",
       "description": "Çamlıca evden eve nakliyatta keşif, paketleme, sigorta ve asansör planını netleştirin; sözleşme adımlarını öğrenin, Kozcuoğlu ile fiyatı şeffaf okuyun.",
-      "ogImage": "/uploads/regions/camlica-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2130,7 +2130,7 @@
     "order": 80,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:10.297Z",
-    "updatedAt": "2026-02-14T00:22:10.297Z"
+    "updatedAt": "2026-03-17T21:30:10.523Z"
   },
   {
     "id": "80",
@@ -2174,7 +2174,7 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Kuzguncuk Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Kuzguncuk Evden Eve Nakliyat Fiyatları",
       "description": "Kuzguncuk evden eve nakliyat için ekspertiz, sigorta, asansör, paketleme ve net fiyat tablosu sunuyoruz. Planlı, sözleşmeli ve güvenli deneyim.",
       "ogImage": "",
       "robots": "index, follow",
@@ -2184,7 +2184,7 @@
     "order": 82,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:14.429Z",
-    "updatedAt": "2026-03-17T21:20:47.085Z"
+    "updatedAt": "2026-03-17T21:34:01.363Z"
   },
   {
     "id": "82",
@@ -2255,9 +2255,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Cevizli Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Cevizli Evden Eve Nakliyat Fiyatları 2026",
       "description": "Cevizli’de ev taşıma planı, ekspertiz, paketleme, asansör, sigorta ve depolama adımlarını öğrenin; fiyat tablosu ve sözleşme ölçütleriyle karar verin.",
-      "ogImage": "/uploads/regions/cevizli-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2265,7 +2265,7 @@
     "order": 85,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:20.347Z",
-    "updatedAt": "2026-02-14T00:22:20.347Z"
+    "updatedAt": "2026-03-17T21:30:09.659Z"
   },
   {
     "id": "85",
@@ -2309,9 +2309,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Aydınevler Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Aydınevler Evden Eve Nakliyat Fiyatları",
       "description": "Aydınevler evden eve nakliyat rehberi: planlama, ücretsiz keşif, sigorta kapsamı, asansör seçimi, ambalaj detayları, depolama ve pratik fiyat tablosu.",
-      "ogImage": "/uploads/regions/aydinevler-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2319,7 +2319,7 @@
     "order": 87,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:24.609Z",
-    "updatedAt": "2026-02-14T00:22:24.609Z"
+    "updatedAt": "2026-03-17T21:34:05.790Z"
   },
   {
     "id": "87",
@@ -2471,9 +2471,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Küçükyalı Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Küçükyalı Evden Eve Nakliyat Fiyatları 2026",
       "description": "Küçükyalı evden eve nakliyat için keşif, paketleme, sigorta ve asansör planını öğrenin; fiyat tablosu, kontrol listesi ve rota notlarıyla karar verin.",
-      "ogImage": "/uploads/regions/kucukyali-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2481,7 +2481,7 @@
     "order": 93,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:45.281Z",
-    "updatedAt": "2026-02-14T00:22:45.281Z"
+    "updatedAt": "2026-03-17T21:30:17.293Z"
   },
   {
     "id": "93",
@@ -2525,9 +2525,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Kaynarca Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Firma",
+      "title": "Kaynarca Evden Eve Nakliyat Fiyatları 2026",
       "description": "Kaynarca evden eve nakliyat sürecini keşif, paketleme, sigorta ve asansör planıyla yönetin; fiyat tablosu ve kontrol listesiyle rahatça karar verin.",
-      "ogImage": "/uploads/regions/kaynarca-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2535,7 +2535,7 @@
     "order": 95,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:49.589Z",
-    "updatedAt": "2026-02-14T00:22:49.589Z"
+    "updatedAt": "2026-03-17T21:30:18.532Z"
   },
   {
     "id": "95",
@@ -2552,9 +2552,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Esenkent Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Esenkent Evden Eve Nakliyat Fiyatları 2026",
       "description": "Esenkent evden eve nakliyatta keşif, sigorta, asansör, paketleme ve bütçe kalemlerini netleştirin; zaman kaybetmeden düzenli taşının, sürprizi azaltın.",
-      "ogImage": "/uploads/regions/esenkent-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2562,7 +2562,7 @@
     "order": 96,
     "isActive": true,
     "createdAt": "2026-02-14T00:22:51.930Z",
-    "updatedAt": "2026-02-14T00:22:51.930Z"
+    "updatedAt": "2026-03-17T21:30:22.160Z"
   },
   {
     "id": "96",
@@ -2660,9 +2660,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Soğanlık Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Soğanlık Evden Eve Nakliyat Fiyatları 2026",
       "description": "Soğanlık’ta ev taşıma planı, keşif, sigorta, asansör, paketleme ve fiyat detaylarıyla güvenli nakliyat rehberi; pratik kontrol listeleri size sunar.",
-      "ogImage": "/uploads/regions/soganlik-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2670,7 +2670,7 @@
     "order": 100,
     "isActive": true,
     "createdAt": "2026-02-14T00:23:00.608Z",
-    "updatedAt": "2026-02-14T00:23:00.608Z"
+    "updatedAt": "2026-03-17T21:30:13.100Z"
   },
   {
     "id": "100",
@@ -2741,9 +2741,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Şerifali Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Şerifali Evden Eve Nakliyat Fiyatları 2026",
       "description": "Şerifali evden eve nakliyat için keşif, ambalaj, sigorta ve asansör planını netleştirin; Kozcuoğlu Nakliyat ile fiyat mantığını anlayın, güvenle taşının.",
-      "ogImage": "/uploads/regions/serifali-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -2751,7 +2751,7 @@
     "order": 103,
     "isActive": true,
     "createdAt": "2026-02-14T00:23:06.731Z",
-    "updatedAt": "2026-02-14T00:23:06.731Z"
+    "updatedAt": "2026-03-17T21:30:11.779Z"
   },
   {
     "id": "103",
@@ -3281,9 +3281,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Zümrütevler Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma",
+      "title": "Zümrütevler Evden Eve Nakliyat Fiyatları 2026",
       "description": "Zümrütevler evden eve nakliyatta keşif, sigorta, asansör ve paketleme adımlarını öğrenin; Kozcuoğlu Nakliyat rehberiyle net plan kurup güvenle taşının.",
-      "ogImage": "/uploads/regions/zumrutevler-evden-eve-nakliyat-maltepe-2.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -3291,7 +3291,7 @@
     "order": 123,
     "isActive": true,
     "createdAt": "2026-02-14T00:23:42.546Z",
-    "updatedAt": "2026-02-14T00:23:42.546Z"
+    "updatedAt": "2026-03-17T21:30:19.726Z"
   },
   {
     "id": "123",
@@ -3524,9 +3524,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Sultanbeyli Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Sultanbeyli Evden Eve Nakliyat Fiyatları",
       "description": "Sultanbeyli evden eve nakliyat için sigortalı, asansörlü ve şehirlerarası taşıma çözümleri. Kozcuoğlu Nakliyat; ekspertiz, paketleme, şeffaf fiyat verir.",
-      "ogImage": "/uploads/regions/sultanbeyli-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -3534,7 +3534,7 @@
     "order": 132,
     "isActive": true,
     "createdAt": "2026-02-14T00:24:00.841Z",
-    "updatedAt": "2026-02-14T00:24:00.841Z"
+    "updatedAt": "2026-03-17T21:34:03.599Z"
   },
   {
     "id": "132",
@@ -3551,9 +3551,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Sancaktepe Evden Eve Nakliyat Fiyatları 2026",
+      "title": "Sancaktepe Evden Eve Nakliyat Fiyatları",
       "description": "Sancaktepe evden eve nakliyat için sigortalı, asansörlü ve sözleşmeli taşıma. Kozcuoğlu; ekspertiz, paketleme ve net fiyat sunar.",
-      "ogImage": "/uploads/regions/sancaktepe-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -3561,7 +3561,7 @@
     "order": 133,
     "isActive": true,
     "createdAt": "2026-02-14T00:24:03.276Z",
-    "updatedAt": "2026-02-14T00:24:03.276Z"
+    "updatedAt": "2026-03-17T21:33:52.291Z"
   },
   {
     "id": "133",
@@ -3686,9 +3686,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Acarkent Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Firma",
+      "title": "Acarkent Evden Eve Nakliyat Fiyatları 2026",
       "description": "Acarkent evden eve nakliyat için keşif, paketleme, asansör, sigorta ve fiyat adımlarını tek sayfada öğrenin; planlı taşıma ile riski düşürün, rahat edin.",
-      "ogImage": "/uploads/regions/acarkent-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -3696,7 +3696,7 @@
     "order": 138,
     "isActive": true,
     "createdAt": "2026-02-14T00:24:16.492Z",
-    "updatedAt": "2026-02-14T00:24:16.492Z"
+    "updatedAt": "2026-03-17T21:30:23.970Z"
   },
   {
     "id": "138",
@@ -3794,9 +3794,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Bostancı Evden Eve Nakliyat Fiyatları 2026 - Pro Ev Taşıma",
+      "title": "Bostancı Evden Eve Nakliyat Fiyatları 2026",
       "description": "Bostancı evden eve nakliyatta keşif, paketleme, sigorta ve asansör adımlarını öğrenin; fiyat tablosu ve seçim ölçütleriyle planınızı netleştirin.",
-      "ogImage": "/uploads/regions/istanbul-evden-eve-nakliyat-kozcuoglu-istanbul-nakliyat-sirketi-scaled.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -3804,7 +3804,7 @@
     "order": 142,
     "isActive": true,
     "createdAt": "2026-02-14T00:26:25.329Z",
-    "updatedAt": "2026-02-14T00:26:25.329Z"
+    "updatedAt": "2026-03-17T21:30:14.313Z"
   },
   {
     "id": "142",
@@ -3848,9 +3848,9 @@
       "longitude": 0
     },
     "seo": {
-      "title": "Kavacık Evden Eve Nakliyat Fiyatları 2026 - Ev Taşıma Şirket",
+      "title": "Kavacık Evden Eve Nakliyat Fiyatları 2026",
       "description": "Kavacık evden eve nakliyat için keşif, paketleme, sigorta ve asansör planını adım adım öğrenin; fiyat tablosu ve kontrol listesiyle güvenle taşının.",
-      "ogImage": "/uploads/regions/kavacik-evden-eve-nakliyat.webp",
+      "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
@@ -3858,7 +3858,7 @@
     "order": 144,
     "isActive": true,
     "createdAt": "2026-02-14T00:26:30.610Z",
-    "updatedAt": "2026-02-14T00:26:30.610Z"
+    "updatedAt": "2026-03-17T21:30:22.795Z"
   },
   {
     "id": "144",
