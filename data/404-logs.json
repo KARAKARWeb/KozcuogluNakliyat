@@ -31,5 +31,16 @@
     "redirectId": null,
     "firstSeen": "2026-03-17T18:44:06.267Z",
     "lastSeen": "2026-03-17T18:44:06.267Z"
+  },
+  {
+    "id": "1773777751283",
+    "url": "/tasima-kontrol-listesi",
+    "referrer": "",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "hitCount": 1,
+    "status": "new",
+    "redirectId": null,
+    "firstSeen": "2026-03-17T20:02:31.283Z",
+    "lastSeen": "2026-03-17T20:02:31.283Z"
   }
 ]
