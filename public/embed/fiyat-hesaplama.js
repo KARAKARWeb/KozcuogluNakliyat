@@ -1,6 +1,10 @@
 (function() {
-  var EMBED_URL = "https://kozcuoglunakliyat.com.tr/embed/fiyat-hesaplama";
-  var LINK_HREF = "https://kozcuoglunakliyat.com.tr";
+  // Script'in yüklendiği domain'i otomatik algıla
+  var scriptSrc = document.currentScript ? document.currentScript.src : "";
+  var scriptOrigin = scriptSrc ? new URL(scriptSrc).origin : "https://kozcuoglunakliyat.com.tr";
+  
+  var EMBED_URL = scriptOrigin + "/embed/fiyat-hesaplama";
+  var LINK_HREF = scriptOrigin;
   var LINK_TITLE = "evden eve nakliyat";
   var STORAGE_KEY = "kozcuoglu_embed_active";
   var PAGES_KEY = "kozcuoglu_embed_pages";
@@ -105,7 +109,7 @@
   observer.observe(document.head, { childList: true, subtree: true });
 
   window.addEventListener("message", function(e) {
-    if (e.origin !== "https://kozcuoglunakliyat.com.tr") return;
+    if (e.origin !== scriptOrigin) return;
     if (e.data && e.data.type === "kozcuoglu-resize" && e.data.height) {
       iframe.style.height = e.data.height + "px";
     }
