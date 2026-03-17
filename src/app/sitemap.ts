@@ -31,7 +31,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/kurumsal`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.7 },
     { url: `${SITE_URL}/iletisim`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.8 },
     { url: `${SITE_URL}/sikca-sorulan-sorular`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.7 },
-    { url: `${SITE_URL}/referanslar`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/araclarimiz`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/kampanyalar`, lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.7 },
     { url: `${SITE_URL}/galeri`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
