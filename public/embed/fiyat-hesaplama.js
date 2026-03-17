@@ -1,11 +1,11 @@
 (function() {
-  // Script'in yüklendiği domain'i otomatik algıla
+  // Script'in yüklendiği domain'i otomatik algıla (iframe için)
   var scriptSrc = document.currentScript ? document.currentScript.src : "";
   var scriptOrigin = scriptSrc ? new URL(scriptSrc).origin : "https://kozcuoglunakliyat.com.tr";
   
   var EMBED_URL = scriptOrigin + "/embed/fiyat-hesaplama";
-  var LINK_HREF = scriptOrigin;
-  var LINK_TITLE = "evden eve nakliyat";
+  var LINK_HREF = "https://kozcuoglunakliyat.com.tr"; // Her zaman production domain
+  var LINK_TITLE = "Kozcuoğlu Nakliyat - Evden Eve Nakliyat";
   var STORAGE_KEY = "kozcuoglu_embed_active";
   var PAGES_KEY = "kozcuoglu_embed_pages";
 
@@ -21,14 +21,15 @@
     }
   } catch(e) {}
 
-  // head'e dofollow link ekle (yoksa) - TÜM SAYFALARA
+  // head'e link ekle (yoksa) - TÜM SAYFALARA
   function addLink() {
-    if (!document.querySelector('link[href="' + LINK_HREF + '"]')) {
+    if (!document.querySelector('link[data-kozcuoglu-embed="required"]')) {
       var link = document.createElement("link");
-      link.rel = "dofollow";
+      link.rel = "alternate";
       link.href = LINK_HREF;
       link.title = LINK_TITLE;
       link.setAttribute("data-kozcuoglu-embed", "required");
+      link.setAttribute("hreflang", "tr");
       document.head.appendChild(link);
     }
   }
