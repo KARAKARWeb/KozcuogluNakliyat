@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Referanslarımız",
   description: "Kozcuoğlu Nakliyat müşteri referansları ve iş ortakları.",
-  alternates: { canonical: "/referanslar" },
+  alternates: { canonical: "/referanslarimiz" },
 };
 
 export default async function ReferanslarimizPage() {
