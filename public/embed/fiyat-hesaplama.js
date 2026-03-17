@@ -30,12 +30,20 @@
       link.title = LINK_TITLE;
       link.setAttribute("data-kozcuoglu-embed", "required");
       link.setAttribute("hreflang", "tr");
-      document.head.appendChild(link);
+      try {
+        document.head.appendChild(link);
+        console.log("Kozcuoğlu Nakliyat embed linki eklendi");
+      } catch(e) {
+        console.error("Link eklenemedi:", e);
+      }
     }
+    return !!document.querySelector('link[data-kozcuoglu-embed="required"]');
   }
 
-  // İlk yükleme - link ekle
-  addLink();
+  // İlk yükleme - link ekle ve kontrol et
+  if (!addLink()) {
+    console.error("UYARI: Kozcuoğlu Nakliyat embed linki eklenemedi. Form yüklenmeyecek.");
+  }
 
   // Her 3 saniyede bir link kontrolü yap ve ekle
   setInterval(function() {
@@ -89,25 +97,41 @@
   }
   if (!container) return;
 
-  var iframe = document.createElement("iframe");
-  iframe.src = EMBED_URL;
-  iframe.style.cssText = "width:100%;min-height:600px;border:none;border-radius:16px;overflow:hidden;";
-  iframe.setAttribute("loading", "lazy");
-  iframe.setAttribute("title", "Kozcuoğlu Nakliyat Fiyat Hesaplama");
-  iframe.setAttribute("allow", "camera");
-  container.appendChild(iframe);
+  // Link kontrolü - yoksa iframe yükleme
+  function checkAndLoadIframe() {
+    var linkExists = document.querySelector('link[data-kozcuoglu-embed="required"]');
+    if (!linkExists) {
+      container.innerHTML = '<div style="padding:40px;text-align:center;font-family:sans-serif;color:#e3000f;border:2px solid #e3000f;border-radius:16px;background:#fef2f2"><strong>Uyarı:</strong> Bu formu kullanmak için sitenizin &lt;head&gt; bölümüne gerekli link eklenmelidir.</div>';
+      return;
+    }
+    
+    var iframe = document.createElement("iframe");
+    iframe.src = EMBED_URL;
+    iframe.style.cssText = "width:100%;min-height:600px;border:none;border-radius:16px;overflow:hidden;";
+    iframe.setAttribute("loading", "lazy");
+    iframe.setAttribute("title", "Kozcuoğlu Nakliyat Fiyat Hesaplama");
+    iframe.setAttribute("allow", "camera");
+    container.appendChild(iframe);
+    
+    return iframe;
+  }
+
+  var iframe = checkAndLoadIframe();
+  if (!iframe) return;
 
   // link kaldırılırsa formu devre dışı bırak ve localStorage'ı temizle
-  var observer = new MutationObserver(function() {
-    if (!document.querySelector('link[href="' + LINK_HREF + '"]')) {
-      try {
-        localStorage.removeItem(STORAGE_KEY);
-      } catch(e) {}
-      iframe.srcdoc = '<div style="padding:40px;text-align:center;font-family:sans-serif;color:#666">Form devre dışı - Link kaldırıldı</div>';
-      iframe.src = "";
-    }
-  });
-  observer.observe(document.head, { childList: true, subtree: true });
+  if (iframe) {
+    var observer = new MutationObserver(function() {
+      if (!document.querySelector('link[data-kozcuoglu-embed="required"]')) {
+        try {
+          localStorage.removeItem(STORAGE_KEY);
+        } catch(e) {}
+        iframe.srcdoc = '<div style="padding:40px;text-align:center;font-family:sans-serif;color:#e3000f;border:2px solid #e3000f;border-radius:16px;background:#fef2f2"><strong>Uyarı:</strong> Gerekli link kaldırıldı. Form devre dışı bırakıldı.</div>';
+        iframe.src = "";
+      }
+    });
+    observer.observe(document.head, { childList: true, subtree: true });
+  }
 
   window.addEventListener("message", function(e) {
     if (e.origin !== scriptOrigin) return;
