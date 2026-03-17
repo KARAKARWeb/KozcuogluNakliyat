@@ -5,7 +5,7 @@
   
   var EMBED_URL = scriptOrigin + "/embed/fiyat-hesaplama";
   var LINK_HREF = "https://kozcuoglunakliyat.com.tr"; // Her zaman production domain
-  var LINK_TITLE = "Kozcuoğlu Nakliyat - Evden Eve Nakliyat";
+  var LINK_TITLE = "Evden Eve Nakliyat";
   var STORAGE_KEY = "kozcuoglu_embed_active";
   var PAGES_KEY = "kozcuoglu_embed_pages";
 
