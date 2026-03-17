@@ -101,11 +101,11 @@ export default async function SiteFooter() {
           <div>
             <h4 className="mb-4 text-sm font-semibold uppercase tracking-wider text-white">Çözümlerimiz</h4>
             <ul className="space-y-2">
-              {solutions.slice(0, 5).map((s) => (
-                <li key={s.id}>
-                  <Link href={`/${s.slug}`} className="text-sm text-gray-400 transition hover:text-white">{s.title}</Link>
-                </li>
-              ))}
+              <li><Link href="/ekspertiz" className="text-sm text-gray-400 transition hover:text-white">Ücretsiz Ekspertiz</Link></li>
+              <li><Link href="/sigortali-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Sigortalı Ev Taşıma</Link></li>
+              <li><Link href="/sozlesmeli-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Sözleşmeli Ev Taşıma</Link></li>
+              <li><Link href="/asansorlu-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Asansörlü Ev Taşıma</Link></li>
+              <li><Link href="/ambalaj-ve-paketleme" className="text-sm text-gray-400 transition hover:text-white">Ambalaj ve Paketleme</Link></li>
             </ul>
           </div>
 
@@ -117,8 +117,8 @@ export default async function SiteFooter() {
               <li><Link href="/villa-tasimaciligi" className="text-sm text-gray-400 transition hover:text-white">Villa Taşımacılığı</Link></li>
               <li><Link href="/ofis-tasima" className="text-sm text-gray-400 transition hover:text-white">Ofis Taşımacılığı</Link></li>
               <li><Link href="/parca-esya-tasimaciligi" className="text-sm text-gray-400 transition hover:text-white">Parça Eşya Taşımacılığı</Link></li>
-              <li><Link href="/sehir-ici-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Şehir İçi Evden Eve Nakliyat</Link></li>
-              <li><Link href="/sehirler-arasi-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Şehirler Arası Evden Eve Nakliyat</Link></li>
+              <li><Link href="/sehir-ici-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Şehir İçi Ev Taşıma</Link></li>
+              <li><Link href="/sehirler-arasi-evden-eve-nakliyat" className="text-sm text-gray-400 transition hover:text-white">Şehirler Arası Ev Taşıma</Link></li>
             </ul>
           </div>
 
@@ -141,8 +141,8 @@ export default async function SiteFooter() {
               <li><Link href="/nakliyat-fiyat-hesaplama" className="text-sm text-gray-400 transition hover:text-white">Fiyat Hesapla</Link></li>
               <li><Link href="/evden-eve-nakliyat-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Ev Taşıma Fiyatları</Link></li>
               <li><Link href="/ofis-tasima-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Ofis Taşımacılığı Fiyatları</Link></li>
-              <li><Link href="/sigortali-nakliyat-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Sigortalı Ev Taşıma Fiyatları</Link></li>
-              <li><Link href="/asansorlu-nakliyat-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Asansörlü Ev Taşıma Fiyatları</Link></li>
+              <li><Link href="/sigortali-nakliyat-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Sigorta Fiyatları</Link></li>
+              <li><Link href="/asansorlu-nakliyat-fiyatlari" className="text-sm text-gray-400 transition hover:text-white">Asansör Fiyatları</Link></li>
             </ul>
           </div>
 
