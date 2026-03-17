@@ -1,0 +1,110 @@
+{
+  "site": {
+    "name": "Kozcuoğlu Nakliyat",
+    "url": "https://kozcuoglunakliyat.com.tr",
+    "description": "İstanbul evden eve nakliyat, ofis taşıma, eşya depolama hizmetleri. Sigortalı taşımacılık, profesyonel ekip.",
+    "language": "tr",
+    "logo": "/uploads/general/logoDark.webp",
+    "logoDark": "/uploads/general/logoDark.webp",
+    "favicon": "/uploads/general/favicon.ico",
+    "ogImage": "/uploads/og/default.webp"
+  },
+  "nap": {
+    "name": "Kozcuoğlu Nakliyat",
+    "phone": "0216 494 53 37",
+    "phoneCustomerService": "444 7 436",
+    "gsm": "0532 138 49 79",
+    "email": "info@kozcuoglunakliyat.com.tr",
+    "address": {
+      "street": "Kaynarca Mah. Bahattin Veled Cad. No:37",
+      "postalCode": "34890",
+      "district": "Pendik",
+      "city": "İstanbul",
+      "country": "TR",
+      "full": "Kaynarca Mah. Bahattin Veled Cad. No:37 34890 Pendik / İstanbul"
+    },
+    "geo": {
+      "latitude": 40.8776,
+      "longitude": 29.2334
+    },
+    "whatsapp": "https://wa.me/905321384979?text=Merhaba",
+    "workingHours": "Pazartesi-Cumartesi 08:00-19:00, Pazar 09:00-17:00",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24139.607042901505!2d29.290182399999996!3d40.8619784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caddc0782d1f11%3A0xd6ff86d01cc967aa!2sKOZCUO%C4%9ELU%20E%C5%9Fya%20Depolama%20ve%20Nakliyat%20Hizmetleri!5e0!3m2!1str!2str!4v1771121340037!5m2!1str!2str"
+  },
+  "sameAs": [
+    "https://www.facebook.com/kozcuoglunakliyat",
+    "https://www.instagram.com/evdenevenakliyatkozcuoglu/"
+  ],
+  "integrations": {
+    "ga4Id": "",
+    "gtmId": "",
+    "clarityId": "",
+    "indexNowKey": "",
+    "smtp": {
+      "host": "smtp.yandex.com",
+      "port": 465,
+      "user": "info@kozcuoglunakliyat.com.tr",
+      "pass": "sxjchmrwsonpgzuc",
+      "from": "info@kozcuoglunakliyat.com.tr",
+      "to": "info@kozcuoglunakliyat.com.tr"
+    }
+  },
+  "serviceCategories": [
+    {
+      "id": "bireysel",
+      "name": "Bireysel Hizmetler",
+      "slug": "bireysel",
+      "description": "Ev taşıma, villa, parça eşya taşıma ve daha fazlası.",
+      "icon": "Home"
+    },
+    {
+      "id": "kurumsal",
+      "name": "Kurumsal Hizmetler",
+      "slug": "kurumsal",
+      "description": "Ofis, şirket, fabrika, banka ve kurum taşımacılığı.",
+      "icon": "Building2"
+    },
+    {
+      "id": "diger",
+      "name": "Diğer Hizmetler",
+      "slug": "diger",
+      "description": "Piyano, antika, sergi ve özel eşya taşımacılığı.",
+      "icon": "Package"
+    }
+  ],
+  "blogCategories": [
+    {
+      "id": "nakliyat",
+      "name": "Nakliyat",
+      "slug": "nakliyat"
+    },
+    {
+      "id": "depolama",
+      "name": "Depolama",
+      "slug": "depolama"
+    },
+    {
+      "id": "tasima-rehberi",
+      "name": "Taşıma Rehberi",
+      "slug": "tasima-rehberi"
+    },
+    {
+      "id": "sehirler-arasi",
+      "name": "Şehirler Arası",
+      "slug": "sehirler-arasi"
+    }
+  ],
+  "customCode": {
+    "head": "",
+    "bodyStart": "",
+    "footer": ""
+  },
+  "developer": {
+    "name": "KARAKAR Web Tasarım ve Yazılım Ajansı",
+    "url": "https://karakar.web.tr",
+    "phone": "+90 545 181 4040",
+    "email": "info@karakar.web.tr",
+    "logoDark": "https://karakar.web.tr/KARAKAR-Web-Logo-2.webp",
+    "logoLight": "https://karakar.web.tr/KARAKAR-Web-Logo-1.webp"
+  }
+}

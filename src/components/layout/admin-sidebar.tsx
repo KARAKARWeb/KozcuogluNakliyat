@@ -64,7 +64,6 @@ const NAV_GROUPS = [
       { label: "Mesajlar", href: "/admin/messages", icon: Mail },
       { label: "Teklifler", href: "/admin/quotes", icon: ClipboardList },
       { label: "Keşif Talepleri", href: "/admin/surveys", icon: ClipboardList },
-      { label: "Taşıma Takip", href: "/admin/tracking", icon: Package },
       { label: "Yorumlar", href: "/admin/reviews", icon: Star },
     ],
   },

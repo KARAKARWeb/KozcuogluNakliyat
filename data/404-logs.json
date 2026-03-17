@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "id": "1773768669862",
+    "url": "/admin/dashboard/pages",
+    "referrer": "",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "hitCount": 2,
+    "status": "new",
+    "redirectId": null,
+    "firstSeen": "2026-03-17T17:31:09.862Z",
+    "lastSeen": "2026-03-17T17:31:13.663Z"
+  },
+  {
+    "id": "1773768674685",
+    "url": "/admin/dashboard/page",
+    "referrer": "",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15",
+    "hitCount": 1,
+    "status": "new",
+    "redirectId": null,
+    "firstSeen": "2026-03-17T17:31:14.685Z",
+    "lastSeen": "2026-03-17T17:31:14.685Z"
+  }
+]

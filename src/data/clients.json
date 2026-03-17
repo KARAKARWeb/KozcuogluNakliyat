@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1771124148143",
+    "name": "Beko",
+    "logo": "/uploads/general/beko.webp",
+    "website": "",
+    "isActive": true,
+    "order": 1,
+    "createdAt": "2026-02-15T02:55:48.143Z",
+    "updatedAt": "2026-02-15T03:00:50.616Z"
+  },
+  {
+    "id": "1771124476473",
+    "name": "Türk Telekom",
+    "logo": "/uploads/general/turk-telekom.webp",
+    "website": "",
+    "isActive": true,
+    "order": 2,
+    "createdAt": "2026-02-15T03:01:16.473Z",
+    "updatedAt": "2026-02-15T03:01:16.473Z"
+  },
+  {
+    "id": "1771124495133",
+    "name": "Emlak Konut",
+    "logo": "/uploads/general/emlak.webp",
+    "website": "",
+    "isActive": true,
+    "order": 3,
+    "createdAt": "2026-02-15T03:01:35.133Z",
+    "updatedAt": "2026-02-15T03:01:35.133Z"
+  },
+  {
+    "id": "1771124509160",
+    "name": "Otokar",
+    "logo": "/uploads/general/otokar.webp",
+    "website": "",
+    "isActive": true,
+    "order": 4,
+    "createdAt": "2026-02-15T03:01:49.160Z",
+    "updatedAt": "2026-02-15T03:01:49.160Z"
+  },
+  {
+    "id": "1771124522440",
+    "name": "Vodafone",
+    "logo": "/uploads/general/vodafone.webp",
+    "website": "",
+    "isActive": true,
+    "order": 5,
+    "createdAt": "2026-02-15T03:02:02.440Z",
+    "updatedAt": "2026-02-15T03:02:02.440Z"
+  },
+  {
+    "id": "1771124535266",
+    "name": "Bilfen",
+    "logo": "/uploads/general/bilfen.webp",
+    "website": "",
+    "isActive": true,
+    "order": 6,
+    "createdAt": "2026-02-15T03:02:15.266Z",
+    "updatedAt": "2026-02-15T03:02:15.266Z"
+  }
+]

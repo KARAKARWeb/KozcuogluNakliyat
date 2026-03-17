@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1771123215756",
+    "name": "mehmet ali",
+    "phone": "05451814040",
+    "email": "karakarweb@gmail.com",
+    "serviceType": "",
+    "fromAddress": "asdasd",
+    "fromFloor": "3",
+    "fromElevator": "Yok",
+    "toAddress": "asdasd",
+    "toFloor": "3",
+    "toElevator": "Yok",
+    "homeType": "Villa &#x2F; Müstakil",
+    "moveDate": "",
+    "preferredDate": "",
+    "note": "asdasdasd",
+    "status": "scheduled",
+    "adminNote": "",
+    "createdAt": "2026-02-15T02:40:15.757Z",
+    "updatedAt": "2026-02-15T03:34:47.687Z"
+  }
+]

@@ -1,0 +1,65 @@
+{
+  "homeSizes": [
+    {
+      "id": "1+1",
+      "label": "1+1",
+      "basePrice": 16500,
+      "order": 1,
+      "isActive": true
+    },
+    {
+      "id": "2+1",
+      "label": "2+1",
+      "basePrice": 23500,
+      "order": 2,
+      "isActive": true
+    },
+    {
+      "id": "3+1",
+      "label": "3+1",
+      "basePrice": 34500,
+      "order": 3,
+      "isActive": true
+    },
+    {
+      "id": "4+1",
+      "label": "4+1",
+      "basePrice": 46000,
+      "order": 4,
+      "isActive": true
+    },
+    {
+      "id": "5+1",
+      "label": "5+1",
+      "basePrice": 58000,
+      "order": 5,
+      "isActive": true
+    }
+  ],
+  "districts": [
+    "Esenyurt",
+    "Beylikdüzü",
+    "Avcılar",
+    "Küçükçekmece",
+    "Bahçelievler",
+    "Bağcılar",
+    "Başakşehir",
+    "Sultangazi",
+    "Gaziosmanpaşa",
+    "Bayrampaşa",
+    "Şişli",
+    "Beşiktaş",
+    "Sarıyer",
+    "Kadıköy",
+    "Üsküdar",
+    "Ümraniye",
+    "Kartal",
+    "Maltepe",
+    "Pendik",
+    "Tuzla"
+  ],
+  "extraCharges": {
+    "differentDistrict": 1500,
+    "weekendMultiplier": 1.1
+  }
+}

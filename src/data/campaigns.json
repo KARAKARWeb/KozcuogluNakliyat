@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kampanya-1",
+    "title": "Kış Dönemi Taşınma Kampanyası",
+    "slug": "kis-donemi-tasinma-kampanyasi",
+    "description": "Kış aylarında taşınma planlayanlar için özel %20 indirim fırsatı! Profesyonel ekibimiz ve modern araçlarımızla güvenli taşınma.",
+    "discountValue": 20,
+    "discountType": "percentage",
+    "validFrom": "2024-12-01",
+    "validThrough": "2027-03-31",
+    "image": "/uploads/campaigns/kis-kampanya.jpg",
+    "isActive": true,
+    "conditions": [
+      "Kampanya 1 Aralık 2024 - 31 Mart 2025 tarihleri arasında geçerlidir",
+      "Minimum 2+1 daire taşınması için geçerlidir",
+      "İstanbul içi ve şehirler arası nakliyat hizmetlerinde geçerlidir",
+      "Diğer kampanyalarla birleştirilemez",
+      "Rezervasyon sırasında kampanya kodunu belirtmeniz gerekmektedir"
+    ],
+    "services": [
+      "Evden Eve Nakliyat",
+      "Ofis Taşımacılığı",
+      "Şehirler Arası Nakliyat"
+    ],
+    "features": [
+      "Profesyonel Paketleme",
+      "Sigortalı Taşıma",
+      "Ücretsiz Keşif",
+      "7/24 Müşteri Desteği",
+      "Modern Araç Filosu"
+    ],
+    "content": "\n      <h2>Kış Dönemi Özel Taşınma Kampanyası</h2>\n      <p>Kış aylarında taşınma planlayanlar için <strong>%20 indirim</strong> fırsatı sunuyoruz! Kozcuoğlu Nakliyat olarak, profesyonel ekibimiz ve modern araç filomuzla güvenli ve sorunsuz bir taşınma deneyimi yaşamanızı sağlıyoruz.</p>\n      \n      <h3>Kampanya Detayları</h3>\n      <ul>\n        <li><strong>İndirim Oranı:</strong> %20</li>\n        <li><strong>Geçerlilik Tarihi:</strong> 1 Aralık 2024 - 31 Mart 2025</li>\n        <li><strong>Kapsam:</strong> İstanbul içi ve şehirler arası nakliyat</li>\n        <li><strong>Minimum Gereksinim:</strong> 2+1 daire taşınması</li>\n      </ul>\n      \n      <h3>Kampanyadan Kimler Yararlanabilir?</h3>\n      <p>Kış aylarında evden eve nakliyat, ofis taşımacılığı veya şehirler arası taşınma planlayan tüm müşterilerimiz bu kampanyadan yararlanabilir. Minimum 2+1 daire büyüklüğünde taşınma hizmeti alacak müşterilerimiz için geçerlidir.</p>\n      \n      <h3>Neden Kış Aylarında Taşınmalısınız?</h3>\n      <ul>\n        <li><strong>Daha Uygun Fiyatlar:</strong> Kış ayları nakliyat sektöründe daha sakin geçer, bu da size avantaj sağlar</li>\n        <li><strong>Hızlı Randevu:</strong> Yoğun olmayan dönemlerde istediğiniz tarihi kolayca bulabilirsiniz</li>\n        <li><strong>Özel İndirimler:</strong> %20 gibi cazip indirim oranlarından yararlanabilirsiniz</li>\n        <li><strong>Kaliteli Hizmet:</strong> Ekibimiz size daha fazla zaman ayırabilir</li>\n      </ul>\n      \n      <h3>Kampanya Kapsamındaki Hizmetler</h3>\n      <ul>\n        <li><strong>Evden Eve Nakliyat:</strong> Eşyalarınızın profesyonel paketlenmesi ve güvenli taşınması</li>\n        <li><strong>Ofis Taşımacılığı:</strong> İş yerinizin minimum kesinti ile taşınması</li>\n        <li><strong>Şehirler Arası Nakliyat:</strong> Türkiye'nin her yerine güvenli taşıma</li>\n      </ul>\n      \n      <h3>Kampanyadan Nasıl Yararlanabilirsiniz?</h3>\n      <ol>\n        <li>444 7 436 numaralı telefonumuzu arayın veya online teklif formumuzu doldurun</li>\n        <li>Rezervasyon sırasında <strong>\"KIŞ2024\"</strong> kampanya kodunu belirtin</li>\n        <li>Ücretsiz keşif hizmetimizden yararlanın</li>\n        <li>Taşınma tarihinizi belirleyin ve %20 indirimli fiyatla taşının</li>\n      </ol>\n      \n      <h3>Ek Avantajlar</h3>\n      <ul>\n        <li>✅ Ücretsiz keşif ve fiyat teklifi</li>\n        <li>✅ Profesyonel paketleme malzemeleri</li>\n        <li>✅ Sigortalı taşıma güvencesi</li>\n        <li>✅ 7/24 müşteri desteği</li>\n        <li>✅ Modern ve bakımlı araç filosu</li>\n        <li>✅ Deneyimli ve güler yüzlü ekip</li>\n      </ul>\n      \n      <p><strong>Not:</strong> Kampanya koşulları ve detayları için lütfen müşteri hizmetlerimizle iletişime geçin. Kampanya, diğer indirim ve promosyonlarla birleştirilemez.</p>\n    ",
+    "campaignCode": "KIŞ2024",
+    "order": 1,
+    "createdAt": "2026-02-15T01:26:16.187Z",
+    "updatedAt": "2026-02-15T02:53:35.933Z"
+  }
+]

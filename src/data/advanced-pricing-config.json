@@ -1,0 +1,95 @@
+{
+  "serviceTolerance": {
+    "ev": {
+      "type": "percentage",
+      "value": 0
+    },
+    "ofis": {
+      "type": "percentage",
+      "value": 0
+    },
+    "villa": {
+      "type": "percentage",
+      "value": 0
+    },
+    "parcaEsya": {
+      "type": "percentage",
+      "value": 0
+    },
+    "esyaDepolama": {
+      "type": "percentage",
+      "value": 0
+    },
+    "sehirlerArasi": {
+      "type": "percentage",
+      "value": 0
+    }
+  },
+  "pricePerKm": 11151,
+  "roomPricing": {
+    "1-0": {
+      "type": "fixed",
+      "value": 13000
+    },
+    "1+1": {
+      "type": "fixed",
+      "value": 15500
+    },
+    "2+1": {
+      "type": "fixed",
+      "value": 22500
+    },
+    "3+1": {
+      "type": "fixed",
+      "value": 29000
+    },
+    "4+1": {
+      "type": "fixed",
+      "value": 36000
+    },
+    "5+1": {
+      "type": "fixed",
+      "value": 45000
+    },
+    "villa": {
+      "type": "fixed",
+      "value": 65000
+    }
+  },
+  "floorPricing": {
+    "departure": {
+      "perFloor": {
+        "type": "fixed",
+        "value": 200
+      },
+      "withElevator": {
+        "type": "percentage",
+        "value": 0
+      },
+      "withoutElevator": {
+        "type": "percentage",
+        "value": 15
+      }
+    },
+    "arrival": {
+      "perFloor": {
+        "type": "fixed",
+        "value": 200
+      },
+      "withElevator": {
+        "type": "percentage",
+        "value": 0
+      },
+      "withoutElevator": {
+        "type": "percentage",
+        "value": 15
+      }
+    }
+  },
+  "extraElevatorService": {
+    "type": "fixed",
+    "value": 5500
+  },
+  "basePrices": {},
+  "updatedAt": "2026-02-16T00:49:46.093Z"
+}

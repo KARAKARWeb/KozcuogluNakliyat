@@ -1,0 +1,93 @@
+[
+  {
+    "id": "1771121143610",
+    "name": "mehmet",
+    "email": "karakarweb@gmail.com",
+    "phone": "5451814040",
+    "subject": "İletişim Formu",
+    "message": "asd mesaj alanı vs",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-15T02:05:43.610Z",
+    "updatedAt": "2026-02-15T02:06:04.811Z"
+  },
+  {
+    "id": "1771121566365",
+    "name": "mehmet",
+    "email": "karakarweb@gmail.com",
+    "phone": "05451814040",
+    "subject": "İletişim Formu",
+    "message": "test mesaj alanı doldurmak için",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-15T02:12:46.366Z",
+    "updatedAt": "2026-02-15T23:39:26.818Z"
+  },
+  {
+    "id": "1771199357950",
+    "name": "Kullanıcı Geri Bildirimi",
+    "email": "feedback@system.local",
+    "phone": "-",
+    "subject": "Hata Bildirimi - &#x2F;",
+    "message": "📍 Konum: &#x2F;\n🌐 URL: http:&#x2F;&#x2F;localhost:3000&#x2F;\n⭐ Değerlendirme: 5/5\n📝 Açıklama: asd\n🖥️ User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15\n⏰ Tarih: 16.02.2026 02:49:17\n\n📸 Ekran görüntüsü talep edildi",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-15T23:49:17.950Z",
+    "updatedAt": "2026-02-15T23:50:16.262Z"
+  },
+  {
+    "id": "1771199950850",
+    "name": "Kullanıcı Geri Bildirimi",
+    "email": "feedback@system.local",
+    "phone": "-",
+    "subject": "Hata Bildirimi - &#x2F;",
+    "message": "📍 Konum: &#x2F;\n🌐 URL: http:&#x2F;&#x2F;localhost:3000&#x2F;\n⭐ Değerlendirme: 5/5\n📝 Açıklama: aaaa\n🖥️ User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15\n⏰ Tarih: 16.02.2026 02:59:10\n\n📸 Ekran görüntüsü talep edildi",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-15T23:59:10.850Z",
+    "updatedAt": "2026-02-15T23:59:18.543Z"
+  },
+  {
+    "id": "1771200576526",
+    "name": "Kullanıcı Geri Bildirimi",
+    "email": "feedback@system.local",
+    "phone": "-",
+    "subject": "Hata Bildirimi - &#x2F;",
+    "message": "📍 Konum: &#x2F;\n🌐 URL: http:&#x2F;&#x2F;localhost:3000&#x2F;\n⭐ Değerlendirme: 5/5\n📝 Açıklama: asd1111\n🖥️ User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15\n⏰ Tarih: 16.02.2026 03:09:36\n\n📸 Ekran görüntüsü alındı",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-16T00:09:36.526Z",
+    "updatedAt": "2026-02-16T00:09:41.273Z"
+  },
+  {
+    "id": "1771200748229",
+    "name": "Kullanıcı Geri Bildirimi",
+    "email": "feedback@system.local",
+    "phone": "-",
+    "subject": "Hata Bildirimi - &#x2F;fiyatlarimiz",
+    "message": "📍 Konum: &#x2F;fiyatlarimiz\n🌐 URL: http:&#x2F;&#x2F;localhost:3000&#x2F;fiyatlarimiz\n⭐ Değerlendirme: 5/5\n📝 Açıklama: asdasd\n🖥️ User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15\n⏰ Tarih: 16.02.2026 03:12:28\n\n📸 Ekran görüntüsü alındı",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-16T00:12:28.229Z",
+    "updatedAt": "2026-02-16T00:12:33.715Z"
+  },
+  {
+    "id": "1771201003113",
+    "name": "Kullanıcı Geri Bildirimi",
+    "email": "feedback@system.local",
+    "phone": "-",
+    "subject": "Hata Bildirimi - &#x2F;evden-eve-nakliyat-fiyatlari",
+    "message": "📍 Konum: &#x2F;evden-eve-nakliyat-fiyatlari\n🌐 URL: http:&#x2F;&#x2F;localhost:3000&#x2F;evden-eve-nakliyat-fiyatlari\n⭐ Değerlendirme: 5/5\n📝 Açıklama: ads\n🖥️ User Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.2 Safari/605.1.15\n⏰ Tarih: 16.02.2026 03:16:43\n\n📸 Ekran görüntüsü alındı",
+    "source": "contact",
+    "status": "read",
+    "adminNote": "",
+    "createdAt": "2026-02-16T00:16:43.118Z",
+    "updatedAt": "2026-02-16T00:16:49.377Z"
+  }
+]

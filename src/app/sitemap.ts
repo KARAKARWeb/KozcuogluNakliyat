@@ -45,7 +45,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${SITE_URL}/bireysel-referanslar`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/kurumsal-referanslar`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.5 },
     { url: `${SITE_URL}/teklif-al`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.8 },
-    { url: `${SITE_URL}/tasima-takip`, lastModified: BUILD_DATE, changeFrequency: "monthly", priority: 0.6 },
     { url: `${SITE_URL}/evden-eve-nakliyat-fiyatlari`, lastModified: BUILD_DATE, changeFrequency: "weekly", priority: 0.8 },
     { url: `${SITE_URL}/gizlilik-politikasi`, lastModified: BUILD_DATE, changeFrequency: "yearly", priority: 0.3 },
     { url: `${SITE_URL}/cerez-politikasi`, lastModified: BUILD_DATE, changeFrequency: "yearly", priority: 0.3 },

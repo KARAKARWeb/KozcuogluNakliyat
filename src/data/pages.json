@@ -5,7 +5,7 @@
     "title": "Ana Sayfa",
     "sections": {
       "hero": {
-        "title": "Kozcuoğlu Evden Eve Nakliyat",
+        "title": "Kozcoğlu Evden Eve Nakliyat",
         "content": "İstanbul <em>evden eve nakliyat</em> firması olarak güvenli Nakliye hizmetleri sunuyoruz.\n\nKozcuoğlu Nakliyat ile <b>güvenli</b>, <b>sözleşmeli</b>, <b>sigortalı</b> ve <b>profesyonel</b> taşıma hizmeti. 20 yılı aşkın tecrübe ile yanınızdayız.",
         "button1Text": "Ücretsiz Ekspertiz",
         "button1Link": "/iletisim",
@@ -614,182 +614,47 @@
     "sections": {
       "hero": {
         "title": "Nakliyat Fiyat Hesaplama",
-        "content": "Online hesaplama aracı ile net ve kesin nakliyat maliyetinizi öğrenin."
+        "content": "Online fiyat hesaplama aracı ile tahmini nakliyat maliyetinizi öğrenin"
       },
       "seoText": {
         "title": "",
         "content": ""
-      },
-      "article": {
-        "title": "Evden Eve Nakliyat Fiyatları 2026 - Kapsamlı Rehber",
-        "description": "Evden eve nakliyat fiyatlarını etkileyen faktörler, güncel fiyat aralıkları ve tasarruf ipuçları"
-      },
-      "infoBox": {
-        "title": "Hızlı Bilgi",
-        "content": "İstanbul'da ortalama evden eve nakliyat fiyatları 2+1 daire için 15.000 - 36.000 TL, 3+1 daire için 21.000 - 48.000 TL arasında değişmektedir. Fiyatlar eşya miktarı, kat sayısı, asansör durumu ve mesafeye göre farklılık gösterir."
-      },
-      "factors": {
-        "title": "Nakliyat Fiyatını Etkileyen 8 Temel Faktör",
-        "description": "Nakliyat maliyeti tek bir faktöre bağlı değildir. Profesyonel nakliyat firmalarının fiyatlandırmasında birçok değişken rol oynar.",
-        "items": [
-          {
-            "title": "Eşya Hacmi (m³)",
-            "description": "Taşınacak eşyaların toplam metreküp hacmi. 2+1 daire ortalama 25-35 m³, 3+1 daire 40-55 m³ hacim tutar."
-          },
-          {
-            "title": "Kat Sayısı ve Asansör Durumu",
-            "description": "Asansörsüz binalarda kat başına ek ücret uygulanır. 4. kattan sonra asansörlü nakliyat şiddetle önerilir."
-          },
-          {
-            "title": "Mesafe (Km)",
-            "description": "Şehir içi taşımalarda sabit fiyat, şehirler arası taşımalarda km başına ücret hesaplanır."
-          },
-          {
-            "title": "Paketleme Hizmeti",
-            "description": "Profesyonel paketleme malzemesi ve işçilik ücreti. Tam paketleme hizmeti ortalama 1.500-3.000 TL."
-          },
-          {
-            "title": "Özel Eşya Taşıma",
-            "description": "Piyano, antika mobilya, tablo gibi değerli eşyalar için özel paketleme ve sigorta gerekir."
-          },
-          {
-            "title": "Nakliyat Sigortası",
-            "description": "Eşya değerinin %1-2'si kadar sigorta primi. 100.000 TL değer için 1.000-2.000 TL sigorta."
-          },
-          {
-            "title": "Mevsim ve Gün",
-            "description": "Yaz ayları ve ay sonları yoğun dönemdir. Hafta içi taşıma daha ekonomiktir."
-          },
-          {
-            "title": "Montaj-Demontaj",
-            "description": "Mobilya söküm-takım işlemleri. Yatak odası takımı montajı 500-1.000 TL arası."
-          }
-        ]
-      },
-      "priceTable": {
-        "title": "2026 İstanbul Nakliyat Fiyat Tablosu",
-        "caption": "Ortalama fiyatlar, standart hizmet paketi için geçerlidir. Özel durumlar için fiyat değişebilir.",
-        "headers": [
-          "Ev Tipi",
-          "Eşya Hacmi",
-          "Asansörsüz",
-          "Asansörlü",
-          "Ek Hizmetlerle"
-        ],
-        "rows": [
-          {
-            "Ev Tipi": "1+1 Daire",
-            "Eşya Hacmi": "15-20 m³",
-            "Asansörsüz": "13.500 - 16.000 ₺",
-            "Asansörlü": "+6.500 TL",
-            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
-          },
-          {
-            "Ev Tipi": "2+1 Daire",
-            "Eşya Hacmi": "25-35 m³",
-            "Asansörsüz": "25.500 - 39.000 ₺",
-            "Asansörlü": "+6.500 TL",
-            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
-          },
-          {
-            "Ev Tipi": "3+1 Daire",
-            "Eşya Hacmi": "40-55 m³",
-            "Asansörsüz": "37.500 - 53.000 ₺",
-            "Asansörlü": "+6.500 TL",
-            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
-          },
-          {
-            "Ev Tipi": "4+1 Daire",
-            "Eşya Hacmi": "60-80 m³",
-            "Asansörsüz": "50.000 - 68.000 ₺",
-            "Asansörlü": "+6.500 TL",
-            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
-          },
-          {
-            "Ev Tipi": "Villa/Müstakil",
-            "Eşya Hacmi": "100+ m³",
-            "Asansörsüz": "85.000 - 135.000 ₺",
-            "Asansörlü": "+6.500 TL",
-            "Ek Hizmetlerle": "2.500 TL - 4.500 TL"
-          }
-        ]
-      },
-      "savingTips": {
-        "title": "Nakliyat Maliyetinden Tasarruf Etmenin 6 Yolu",
-        "items": [
-          {
-            "title": "Erken Rezervasyon",
-            "description": "2-3 hafta önceden rezervasyon yaparak %10-15 indirim sağlayabilirsiniz."
-          },
-          {
-            "title": "Hafta İçi Taşınma",
-            "description": "Pazartesi-Perşembe arası taşınma hafta sonuna göre %15-20 daha ekonomiktir."
-          },
-          {
-            "title": "Gereksiz Eşyalardan Kurtulun",
-            "description": "Taşınmadan önce kullanmadığınız eşyaları satın veya bağışlayın."
-          },
-          {
-            "title": "Kendi Paketlemenizi Yapın",
-            "description": "Kırılmayan eşyaları kendiniz paketleyerek 1.000-2.000 TL tasarruf edin."
-          },
-          {
-            "title": "Kış Aylarını Tercih Edin",
-            "description": "Aralık-Şubat arası düşük sezon, fiyatlar %20-30 daha uygun."
-          },
-          {
-            "title": "Birden Fazla Teklif Alın",
-            "description": "En az 3 firmadan teklif alarak karşılaştırma yapın."
-          }
-        ]
-      },
-      "warning": {
-        "title": "Dikkat Edilmesi Gerekenler",
-        "content": "Çok düşük fiyat veren firmalardan uzak durun. Kaliteli hizmet için makul fiyat şarttır. Sigortalı taşımacılık mutlaka tercih edilmelidir. Sözleşme yapmadan ödeme yapmayın."
-      },
-      "faq": {
-        "title": "Sıkça Sorulan Sorular",
-        "items": [
-          {
-            "question": "Nakliyat fiyatı nasıl hesaplanır?",
-            "answer": "Nakliyat fiyatı; eşya hacmi (m³), kat sayısı, asansör durumu, mesafe, paketleme ihtiyacı ve ekstra hizmetlere göre hesaplanır. Yukarıdaki hesaplama aracını kullanarak tahmini fiyat alabilirsiniz."
-          },
-          {
-            "question": "Nakliyat sigortası zorunlu mu?",
-            "answer": "Yasal olarak zorunlu değildir ancak şiddetle önerilir. Sigortalı taşımacılıkta hasar durumunda eşyalarınız tazmin edilir. Sigorta primi eşya değerinin %1-2'si kadardır."
-          },
-          {
-            "question": "Hangi ödeme yöntemleri kabul edilir?",
-            "answer": "Nakit, kredi kartı, banka havalesi ve çek kabul edilir. Genellikle %30-50 kapora, kalan ödeme teslimat sonrası yapılır. Sözleşmede ödeme şartları net belirtilmelidir."
-          },
-          {
-            "question": "Asansörlü nakliyat ne kadar daha pahalı?",
-            "answer": "Asansörlü nakliyat (dış cephe asansörü) ortalama 1.500-3.000 TL ek maliyet getirir. Ancak 4+ katlı binalarda hem daha güvenli hem de daha hızlıdır. Yüksek katlarda asansörsüz taşıma riski yüksektir."
-          },
-          {
-            "question": "Taşınma ne kadar sürer?",
-            "answer": "Ortalama 2+1 daire için 4-6 saat, 3+1 daire için 6-8 saat sürer. Paketleme dahil ise 1-2 gün önceden başlanır. Süre eşya miktarı, kat sayısı ve mesafeye göre değişir."
-          }
-        ]
-      },
-      "cta": {
-        "title": "Kesin Fiyat Teklifi İçin Bizi Arayın",
-        "description": "Profesyonel ekibimiz size özel fiyat teklifi hazırlayacaktır",
-        "button1Text": "444 7 436",
-        "button1Link": "tel:4447436",
-        "button2Text": "Online Teklif Al",
-        "button2Link": "/nakliyat-fiyat-hesaplama"
       }
     },
     "seo": {
-      "title": "Nakliyat Fiyat Hesaplama - Anında Gerçek Fiyat Al! - 2026",
-      "description": "Evden eve nakliyat fiyatlarını gerçek hesaplayın, gerçek fiyat ile anlık teklif alın, müşteri yorumlarımızı incele ve uygun fiyatla hızlıca taşının!",
+      "title": "Nakliyat Fiyat Hesaplama",
+      "description": "Online nakliyat fiyat hesaplama aracı.",
       "ogImage": "",
       "robots": "index, follow",
       "canonical": ""
     },
     "schemas": [
       "SoftwareApplication",
+      "BreadcrumbList"
+    ]
+  },
+  {
+    "id": "evden-eve-nakliyat-fiyatlari",
+    "slug": "evden-eve-nakliyat-fiyatlari",
+    "title": "Evden Eve Nakliyat Fiyatları",
+    "sections": {
+      "hero": {
+        "title": "Evden Eve Nakliyat Fiyatları 2026",
+        "content": "Güncel evden eve nakliyat fiyatları ve fiyat tablosu"
+      },
+      "seoText": {
+        "title": "",
+        "content": ""
+      }
+    },
+    "seo": {
+      "title": "Evden Eve Nakliyat Fiyatları 2026",
+      "description": "2026 güncel evden eve nakliyat fiyatları.",
+      "ogImage": "",
+      "robots": "index, follow",
+      "canonical": ""
+    },
+    "schemas": [
       "BreadcrumbList"
     ]
   },
@@ -952,12 +817,11 @@
     "sections": {
       "hero": {
         "title": "Site Haritası",
-        "content": "Websitemiz yer alan tüm sayfalar, hizmetler ve bölgeler.",
-        "backgroundImage": ""
+        "content": "Tüm sayfalar, hizmetler ve bölgeler"
       },
       "seoText": {
         "title": "",
-        "content": "<br>"
+        "content": ""
       }
     },
     "seo": {
