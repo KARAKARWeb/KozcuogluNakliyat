@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { readData } from "@/lib/db";
-import type { Service, Solution, Region, BlogPost, Contract, Policy, PricingPage, Settings } from "@/types";
+import type { Service, Solution, Region, BlogPost, Contract, Policy, Settings } from "@/types";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://kozcuoglunakliyat.com.tr";
 
@@ -12,7 +12,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     readData<BlogPost[]>("blog-posts.json"),
     readData<Contract[]>("contracts.json"),
     readData<Policy[]>("policies.json"),
-    readData<PricingPage[]>("pricing-pages.json"),
+    readData<any[]>("pricing-pages.json"),
     readData<Settings>("settings.json"),
   ]);
 
@@ -102,18 +102,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.4,
     }));
 
-  const policyPages: MetadataRoute.Sitemap = policies
-    .filter((p) => p.isActive)
-    .map((p) => ({
-      url: `${SITE_URL}/${p.slug}`,
-      lastModified: new Date(p.updatedAt || p.createdAt),
-      changeFrequency: "yearly" as const,
-      priority: 0.3,
-    }));
+  const policyPages: MetadataRoute.Sitemap = policies.map((p) => ({
+    url: `${SITE_URL}/${p.slug}`,
+    lastModified: BUILD_DATE,
+    changeFrequency: "yearly" as const,
+    priority: 0.3,
+  }));
 
   const pricingPagesMap: MetadataRoute.Sitemap = pricingPages
-    .filter((p) => p.isActive)
-    .map((p) => ({
+    .filter((p: any) => p.isActive)
+    .map((p: any) => ({
       url: `${SITE_URL}/${p.slug}`,
       lastModified: new Date(p.updatedAt || p.createdAt),
       changeFrequency: "weekly" as const,
