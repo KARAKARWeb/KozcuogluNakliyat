@@ -1,16 +1,19 @@
 import type { MetadataRoute } from "next";
 import { readData } from "@/lib/db";
-import type { Service, Solution, Region, BlogPost, Contract } from "@/types";
+import type { Service, Solution, Region, BlogPost, Contract, Policy, PricingPage, Settings } from "@/types";
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://kozcuoglunakliyat.com.tr";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [services, solutions, regions, blog, contracts] = await Promise.all([
+  const [services, solutions, regions, blog, contracts, policies, pricingPages, settings] = await Promise.all([
     readData<Service[]>("services.json"),
     readData<Solution[]>("solutions.json"),
     readData<Region[]>("regions.json"),
     readData<BlogPost[]>("blog-posts.json"),
     readData<Contract[]>("contracts.json"),
+    readData<Policy[]>("policies.json"),
+    readData<PricingPage[]>("pricing-pages.json"),
+    readData<Settings>("settings.json"),
   ]);
 
   const BUILD_DATE = new Date("2026-02-14");
@@ -99,5 +102,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.4,
     }));
 
-  return [...staticPages, ...servicePages, ...solutionPages, ...regionPages, ...blogPages, ...contractPages];
+  const policyPages: MetadataRoute.Sitemap = policies
+    .filter((p) => p.isActive)
+    .map((p) => ({
+      url: `${SITE_URL}/${p.slug}`,
+      lastModified: new Date(p.updatedAt || p.createdAt),
+      changeFrequency: "yearly" as const,
+      priority: 0.3,
+    }));
+
+  const pricingPagesMap: MetadataRoute.Sitemap = pricingPages
+    .filter((p) => p.isActive)
+    .map((p) => ({
+      url: `${SITE_URL}/${p.slug}`,
+      lastModified: new Date(p.updatedAt || p.createdAt),
+      changeFrequency: "weekly" as const,
+      priority: 0.8,
+    }));
+
+  const categoryPages: MetadataRoute.Sitemap = (settings.serviceCategories || [])
+    .map((c) => ({
+      url: `${SITE_URL}/hizmetlerimiz/${c.slug}`,
+      lastModified: BUILD_DATE,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    }));
+
+  return [...staticPages, ...servicePages, ...solutionPages, ...regionPages, ...blogPages, ...contractPages, ...policyPages, ...pricingPagesMap, ...categoryPages];
 }
