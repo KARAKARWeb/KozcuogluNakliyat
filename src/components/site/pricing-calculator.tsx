@@ -110,7 +110,7 @@ export default function PricingCalculator({ isEmbed = false }: PricingCalculator
   const isDepolama = form.hizmetTipi === "depolama";
 
   useEffect(() => {
-    fetch("/api/advanced-pricing-config")
+    fetch("/api/public/pricing-config")
       .then(res => res.json())
       .then(json => {
         if (json.success) setPricingConfig(json.data);
